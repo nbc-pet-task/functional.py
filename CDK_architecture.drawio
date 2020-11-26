@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-11-26T00:59:31.327Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="coPBsxC4pPEHwY697P2k" version="13.10.1" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2020-11-26T06:00:41.847Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="-GPh3MqXrPeO43OKL5C3" version="13.10.1" type="github" pages="4">
   <diagram id="kI84c9Ne_buLZaDN4V-V" name="AWS architecture">
-    <mxGraphModel dx="1326" dy="899" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2062" dy="1066" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="cHVJoLJTV80GJNCRkLCo-0" />
         <mxCell id="cHVJoLJTV80GJNCRkLCo-1" parent="cHVJoLJTV80GJNCRkLCo-0" />
@@ -234,7 +234,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="2qSs3ABCRcR-azp0qHjR" name="CDK architecture">
-    <mxGraphModel dx="1326" dy="899" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2062" dy="1066" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -345,7 +345,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="urhagR4Mz2EAsUIp2mXE" name="Register Dev">
-    <mxGraphModel dx="1326" dy="899" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1718" dy="888" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0RtrhZzfjqJ7Ya9RWRAF-0" />
         <mxCell id="0RtrhZzfjqJ7Ya9RWRAF-1" parent="0RtrhZzfjqJ7Ya9RWRAF-0" />
@@ -480,7 +480,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ell-NQsQsn6KH79OYZ6-" name="upload sensor data">
-    <mxGraphModel dx="1326" dy="899" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1718" dy="888" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="drPZ285F0mqxZkz1HPR6-0" />
         <mxCell id="drPZ285F0mqxZkz1HPR6-1" parent="drPZ285F0mqxZkz1HPR6-0" />
@@ -666,6 +666,9 @@
         </mxCell>
         <mxCell id="E1-3YLunPOEhihwWKST6-30" value=": beacon scanner" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="drPZ285F0mqxZkz1HPR6-1">
           <mxGeometry x="470" y="230" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6BhQ313PiMcoT8-T44Kl-0" value="&lt;h1 style=&quot;font-size: 19px&quot;&gt;&lt;font style=&quot;font-size: 19px&quot;&gt;식기에서 Beacon 스캐닝을 하는 시기&lt;/font&gt;&lt;/h1&gt;&lt;p style=&quot;font-size: 19px&quot;&gt;1. 식기의 무게의 변경이 있을 때&lt;br&gt;&amp;nbsp; &amp;nbsp; - 사료(물)를 보충 때&lt;br&gt;&amp;nbsp; &amp;nbsp; - Pet이 사료(물)를 먹을 때&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="drPZ285F0mqxZkz1HPR6-1">
+          <mxGeometry x="770" y="260" width="330" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
