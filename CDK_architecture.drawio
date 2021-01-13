@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-13T01:48:40.065Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="LXgEPY-2AN01kFJfOc1F" version="14.1.1" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2021-01-13T01:49:37.875Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="6wpYG6BCzCCjQLouzJW2" version="14.1.1" type="github" pages="6">
   <diagram id="kI84c9Ne_buLZaDN4V-V" name="AWS architecture">
     <mxGraphModel dx="2249" dy="802" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1030,7 +1030,7 @@
         </mxCell>
         <mxCell id="YGp3yJGx817dmJAw92DD-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="bCj6ml5823CtcG9ZzvgO-1" source="gAh0NwrWtnMfJlkAv4P0-10" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="358" y="970" as="targetPoint" />
+            <mxPoint x="358" y="960" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="gAh0NwrWtnMfJlkAv4P0-10" value="Device gateway" style="outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#277116;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.iot_device_gateway;" parent="bCj6ml5823CtcG9ZzvgO-1" vertex="1">
