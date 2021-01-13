@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-01-13T01:49:37.875Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="6wpYG6BCzCCjQLouzJW2" version="14.1.1" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2021-01-13T06:45:34.910Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="wpCGsEZTQEqs1QXKl7ie" version="14.1.9" type="github" pages="6">
   <diagram id="kI84c9Ne_buLZaDN4V-V" name="AWS architecture">
-    <mxGraphModel dx="2249" dy="802" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2889" dy="1123" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="cHVJoLJTV80GJNCRkLCo-0" />
         <mxCell id="cHVJoLJTV80GJNCRkLCo-1" parent="cHVJoLJTV80GJNCRkLCo-0" />
@@ -144,16 +144,16 @@
         <mxCell id="cHVJoLJTV80GJNCRkLCo-21" value="AWS SQS" style="outlineConnect=0;fontColor=#232F3E;gradientColor=#F34482;gradientDirection=north;fillColor=#BC1356;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.sqs;" parent="cHVJoLJTV80GJNCRkLCo-1" vertex="1">
           <mxGeometry x="727" y="129.75" width="78" height="78" as="geometry" />
         </mxCell>
-        <mxCell id="cHVJoLJTV80GJNCRkLCo-34" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;" parent="cHVJoLJTV80GJNCRkLCo-1" target="cHVJoLJTV80GJNCRkLCo-27" edge="1">
+        <mxCell id="cHVJoLJTV80GJNCRkLCo-34" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;" parent="cHVJoLJTV80GJNCRkLCo-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="346" y="168.79999999999995" as="sourcePoint" />
+            <mxPoint x="254.5" y="168.79999999999995" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="cHVJoLJTV80GJNCRkLCo-31" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="cHVJoLJTV80GJNCRkLCo-1" source="cHVJoLJTV80GJNCRkLCo-27" target="cHVJoLJTV80GJNCRkLCo-17" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="cHVJoLJTV80GJNCRkLCo-27" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;image=https://onesignal-blog.s3.amazonaws.com/2018/Aug/onesignal-1534463753064.png;" parent="cHVJoLJTV80GJNCRkLCo-1" vertex="1">
-          <mxGeometry x="157" y="120" width="97.5" height="97.5" as="geometry" />
+        <mxCell id="cHVJoLJTV80GJNCRkLCo-31" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="cHVJoLJTV80GJNCRkLCo-1" target="cHVJoLJTV80GJNCRkLCo-17" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="157" y="168.75" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="cHVJoLJTV80GJNCRkLCo-33" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;" parent="cHVJoLJTV80GJNCRkLCo-1" source="cHVJoLJTV80GJNCRkLCo-28" edge="1">
           <mxGeometry relative="1" as="geometry">
