@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-19T12:25:12.887Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="G8T7DmiN-uK02I1bHE6_" version="14.2.3" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2021-01-19T12:27:51.457Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="jwAHbl8HZZV7SILwQVZW" version="14.2.3" type="github" pages="8">
   <diagram id="kI84c9Ne_buLZaDN4V-V" name="AWS architecture">
     <mxGraphModel dx="1785" dy="976" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1994,7 +1994,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="i7i9i-1OF40dBHivPQ-N" name="SignUp Process">
-    <mxGraphModel dx="456" dy="465" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1369" dy="1394" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="YjRlg9eon4_bUFiRIzRs-0" />
         <mxCell id="YjRlg9eon4_bUFiRIzRs-1" parent="YjRlg9eon4_bUFiRIzRs-0" />
@@ -2290,6 +2290,9 @@
         </mxCell>
         <mxCell id="zCDsW8-7FKBDH8lCgjOq-14" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=1;" vertex="1" parent="YjRlg9eon4_bUFiRIzRs-1">
           <mxGeometry x="311" y="213" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zCDsW8-7FKBDH8lCgjOq-16" value="User&lt;br&gt;Action" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=1;html=1;fontSize=20;" vertex="1" parent="YjRlg9eon4_bUFiRIzRs-1">
+          <mxGeometry x="40" y="12" width="80" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
