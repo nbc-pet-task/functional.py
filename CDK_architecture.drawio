@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-20T03:31:20.392Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="cPhi7MfDWNAK9tQVx-nW" version="14.2.4" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2021-01-20T04:43:13.459Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="7p3T7AAjd4XUap3WtjRL" version="14.2.4" type="github" pages="8">
   <diagram id="kI84c9Ne_buLZaDN4V-V" name="AWS architecture">
     <mxGraphModel dx="1784" dy="975" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2087,8 +2087,25 @@
         <mxCell id="zg7tTRblwGRi1zgCtBSo-14" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;TimelineTable&lt;/div&gt;&lt;table style=&quot;width: 100% ; font-size: 1em&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;ParitionKey&lt;/td&gt;&lt;td&gt;petId : String!&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;SortKey1&lt;/td&gt;&lt;td&gt;startAt : String!&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;SortKey2&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;endAt : String!&lt;br&gt;type&lt;br&gt;data&lt;br&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;" vertex="1" parent="lRxQcqwQzCrdxf21fRnw-1">
           <mxGeometry x="810" y="1010" width="180" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="zg7tTRblwGRi1zgCtBSo-15" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;ScheduleTable&lt;/div&gt;&lt;table style=&quot;width: 100% ; font-size: 1em&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PartitionKey&lt;/td&gt;&lt;td&gt;petId : String!&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;SortKey1&lt;/td&gt;&lt;td&gt;startAt : String!&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;data&lt;br&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;" vertex="1" parent="lRxQcqwQzCrdxf21fRnw-1">
-          <mxGeometry x="1125" y="1010" width="180" height="80" as="geometry" />
+        <mxCell id="zg7tTRblwGRi1zgCtBSo-15" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;ScheduleTable&lt;/div&gt;&lt;table style=&quot;width: 100% ; font-size: 1em&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PartitionKey&lt;/td&gt;&lt;td&gt;petId : String!&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;SortKey1&lt;/td&gt;&lt;td&gt;createdtAt : String!&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;data&lt;br&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;" vertex="1" parent="lRxQcqwQzCrdxf21fRnw-1">
+          <mxGeometry x="1230" y="1010" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zg7tTRblwGRi1zgCtBSo-17" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;NotificationTable&lt;/div&gt;&lt;table style=&quot;width: 100% ; font-size: 1em&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PartitionKey&lt;/td&gt;&lt;td&gt;petId : String!&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;SortKey1&lt;br&gt;SortKey2&lt;/td&gt;&lt;td&gt;createdtAt : String!&lt;br&gt;type : String!&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;data&lt;br&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;" vertex="1" parent="lRxQcqwQzCrdxf21fRnw-1">
+          <mxGeometry x="1020" y="1010" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="zg7tTRblwGRi1zgCtBSo-18" value="resolver" style="endArrow=open;endSize=12;dashed=1;html=1;exitX=0.565;exitY=-0.041;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="lRxQcqwQzCrdxf21fRnw-1" source="zg7tTRblwGRi1zgCtBSo-17" target="AgIgylYJdQqGcv1YdMd6-72">
+          <mxGeometry x="-0.0909" y="20" width="160" relative="1" as="geometry">
+            <mxPoint x="350" y="840" as="sourcePoint" />
+            <mxPoint x="510" y="840" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zg7tTRblwGRi1zgCtBSo-19" value="resolver" style="endArrow=open;endSize=12;dashed=1;html=1;" edge="1" parent="lRxQcqwQzCrdxf21fRnw-1" source="zg7tTRblwGRi1zgCtBSo-15" target="AgIgylYJdQqGcv1YdMd6-41">
+          <mxGeometry x="-0.0909" y="20" width="160" relative="1" as="geometry">
+            <mxPoint x="1121.6999999999998" y="1006.31" as="sourcePoint" />
+            <mxPoint x="1042.585784086913" y="632" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
