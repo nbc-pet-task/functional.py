@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-25T03:39:31.772Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="SnoUyqEF-sGfyltVEhcD" version="14.2.7" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2021-01-25T07:44:22.948Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="bVvPUdP-x-WM48zFh7Eh" version="14.2.7" type="github" pages="9">
   <diagram id="kI84c9Ne_buLZaDN4V-V" name="AWS architecture">
     <mxGraphModel dx="2247" dy="1832" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -460,7 +460,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="urhagR4Mz2EAsUIp2mXE" name="Register Dev">
-    <mxGraphModel dx="1943" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1183" dy="1479" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0RtrhZzfjqJ7Ya9RWRAF-0" />
         <mxCell id="0RtrhZzfjqJ7Ya9RWRAF-1" parent="0RtrhZzfjqJ7Ya9RWRAF-0" />
@@ -540,7 +540,7 @@
             <mxPoint x="669.5" y="730" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xB2pkz-T26k-O0tFHfZw-24" value="Read Device information" style="html=1;verticalAlign=bottom;endArrow=block;entryX=1;entryY=0;" parent="0RtrhZzfjqJ7Ya9RWRAF-1" target="xB2pkz-T26k-O0tFHfZw-23" edge="1">
+        <mxCell id="xB2pkz-T26k-O0tFHfZw-24" value="Read Device information Service" style="html=1;verticalAlign=bottom;endArrow=block;entryX=1;entryY=0;" parent="0RtrhZzfjqJ7Ya9RWRAF-1" target="xB2pkz-T26k-O0tFHfZw-23" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="439.5" y="489.5" as="sourcePoint" />
           </mxGeometry>
@@ -579,7 +579,7 @@
         <mxCell id="cRKCtgGZvkHYSr-CXIoN-1" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=1;strokeColor=#000000;" parent="0RtrhZzfjqJ7Ya9RWRAF-1" vertex="1">
           <mxGeometry x="200" y="550" width="10" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="cRKCtgGZvkHYSr-CXIoN-2" value="(Custom) Read Old WiFi information" style="html=1;verticalAlign=bottom;endArrow=block;entryX=1;entryY=0;" parent="0RtrhZzfjqJ7Ya9RWRAF-1" target="cRKCtgGZvkHYSr-CXIoN-1" edge="1">
+        <mxCell id="cRKCtgGZvkHYSr-CXIoN-2" value="WiFi Connection Service" style="html=1;verticalAlign=bottom;endArrow=block;entryX=1;entryY=0;" parent="0RtrhZzfjqJ7Ya9RWRAF-1" target="cRKCtgGZvkHYSr-CXIoN-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="439.5" y="550" as="sourcePoint" />
           </mxGeometry>
@@ -2444,7 +2444,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="OcHEU4iE_A89n6C1LT4B" name="연결flow">
-    <mxGraphModel dx="1420" dy="1832" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
+    <mxGraphModel dx="1420" dy="1775" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
         <mxCell id="j5lbtWY_CVDqfyDg-Ocu-0" />
         <mxCell id="j5lbtWY_CVDqfyDg-Ocu-1" parent="j5lbtWY_CVDqfyDg-Ocu-0" />
