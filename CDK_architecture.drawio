@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-01-27T08:35:36.882Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="6kzvPvIrzgvG6YW_B71N" version="14.2.7" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2021-01-28T00:30:14.735Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="5vxdTYY5CagUQDM146ut" version="14.2.7" type="github" pages="10">
   <diagram id="kI84c9Ne_buLZaDN4V-V" name="AWS architecture">
-    <mxGraphModel dx="2049" dy="941" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2249" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="cHVJoLJTV80GJNCRkLCo-0" />
         <mxCell id="cHVJoLJTV80GJNCRkLCo-1" parent="cHVJoLJTV80GJNCRkLCo-0" />
@@ -460,7 +460,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="urhagR4Mz2EAsUIp2mXE" name="Register Dev">
-    <mxGraphModel grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" page="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0RtrhZzfjqJ7Ya9RWRAF-0" />
         <mxCell id="0RtrhZzfjqJ7Ya9RWRAF-1" parent="0RtrhZzfjqJ7Ya9RWRAF-0" />
@@ -528,16 +528,16 @@
             <mxPoint x="439.5" y="459.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xB2pkz-T26k-O0tFHfZw-21" value="Subscribe register" style="html=1;verticalAlign=bottom;startArrow=none;startFill=0;endArrow=block;startSize=8;" parent="0RtrhZzfjqJ7Ya9RWRAF-1" edge="1">
+        <mxCell id="xB2pkz-T26k-O0tFHfZw-21" value="Subscribe for createDevicer" style="html=1;verticalAlign=bottom;startArrow=none;startFill=0;endArrow=block;startSize=8;" parent="0RtrhZzfjqJ7Ya9RWRAF-1" edge="1">
           <mxGeometry width="60" relative="1" as="geometry">
-            <mxPoint x="440" y="600" as="sourcePoint" />
-            <mxPoint x="669.5" y="600" as="targetPoint" />
+            <mxPoint x="440" y="620" as="sourcePoint" />
+            <mxPoint x="669.5" y="620" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="xB2pkz-T26k-O0tFHfZw-22" value="fleet provisioning" style="html=1;verticalAlign=bottom;startArrow=none;startFill=0;endArrow=block;startSize=8;" parent="0RtrhZzfjqJ7Ya9RWRAF-1" edge="1">
           <mxGeometry width="60" relative="1" as="geometry">
-            <mxPoint x="210" y="730" as="sourcePoint" />
-            <mxPoint x="669.5" y="730" as="targetPoint" />
+            <mxPoint x="210" y="750" as="sourcePoint" />
+            <mxPoint x="669.5" y="750" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="xB2pkz-T26k-O0tFHfZw-24" value="Read Device information Service" style="html=1;verticalAlign=bottom;endArrow=block;entryX=1;entryY=0;" parent="0RtrhZzfjqJ7Ya9RWRAF-1" target="xB2pkz-T26k-O0tFHfZw-23" edge="1">
@@ -552,28 +552,28 @@
         </mxCell>
         <mxCell id="xB2pkz-T26k-O0tFHfZw-26" value="Write WiFi information, petId, devId" style="html=1;verticalAlign=bottom;startArrow=none;startFill=0;endArrow=block;startSize=8;" parent="0RtrhZzfjqJ7Ya9RWRAF-1" edge="1">
           <mxGeometry x="0.0412" width="60" relative="1" as="geometry">
-            <mxPoint x="440.5" y="620" as="sourcePoint" />
-            <mxPoint x="210" y="620" as="targetPoint" />
+            <mxPoint x="440.5" y="640" as="sourcePoint" />
+            <mxPoint x="210" y="640" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="xB2pkz-T26k-O0tFHfZw-27" value="Registered Complete" style="html=1;verticalAlign=bottom;startArrow=none;startFill=0;endArrow=block;startSize=8;" parent="0RtrhZzfjqJ7Ya9RWRAF-1" edge="1">
           <mxGeometry x="0.0412" width="60" relative="1" as="geometry">
-            <mxPoint x="670.5" y="775.71" as="sourcePoint" />
-            <mxPoint x="440" y="775.71" as="targetPoint" />
+            <mxPoint x="670.5" y="795.71" as="sourcePoint" />
+            <mxPoint x="440" y="795.71" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="xB2pkz-T26k-O0tFHfZw-28" value="switching&lt;br&gt;WiFi&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="0RtrhZzfjqJ7Ya9RWRAF-1" vertex="1">
-          <mxGeometry x="80" y="630" width="120" height="40" as="geometry" />
+          <mxGeometry x="80" y="650" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="xB2pkz-T26k-O0tFHfZw-32" value="Try connect&lt;br&gt;to AP" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="0RtrhZzfjqJ7Ya9RWRAF-1" vertex="1">
-          <mxGeometry x="80" y="680" width="120" height="40" as="geometry" />
+          <mxGeometry x="80" y="700" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="X9int7HfkZ8a3cqS36f_-0" value="Hello message" style="html=1;verticalAlign=bottom;startArrow=none;startFill=0;endArrow=block;startSize=8;" parent="0RtrhZzfjqJ7Ya9RWRAF-1" edge="1">
           <mxGeometry width="60" relative="1" as="geometry">
-            <mxPoint x="210.25" y="750" as="sourcePoint" />
-            <mxPoint x="669.75" y="750" as="targetPoint" />
+            <mxPoint x="210.25" y="770" as="sourcePoint" />
+            <mxPoint x="669.75" y="770" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="cRKCtgGZvkHYSr-CXIoN-1" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=1;strokeColor=#000000;" parent="0RtrhZzfjqJ7Ya9RWRAF-1" vertex="1">
@@ -589,14 +589,17 @@
             <mxPoint x="439.5" y="578.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Z7flRlm_s270BkS8Yg-W-0" value="createdThing&lt;br&gt;in IoT core" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="0RtrhZzfjqJ7Ya9RWRAF-1" vertex="1">
-          <mxGeometry x="680" y="700" width="120" height="40" as="geometry" />
+        <mxCell id="Z7flRlm_s270BkS8Yg-W-0" value="createdThing &amp;amp; Cert&lt;br&gt;in IoT core" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="0RtrhZzfjqJ7Ya9RWRAF-1" vertex="1">
+          <mxGeometry x="680" y="720" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Z7flRlm_s270BkS8Yg-W-1" value="createdDevice&lt;br&gt;in AppSync" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="0RtrhZzfjqJ7Ya9RWRAF-1" vertex="1">
-          <mxGeometry x="680" y="750" width="120" height="40" as="geometry" />
+          <mxGeometry x="680" y="770" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="C-0uGFcbt6YsgrK5G-Bb-0" value="generate devId : UUID" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="0RtrhZzfjqJ7Ya9RWRAF-1">
+        <mxCell id="C-0uGFcbt6YsgrK5G-Bb-0" value="generate devId : 128bit UUID" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="0RtrhZzfjqJ7Ya9RWRAF-1" vertex="1">
           <mxGeometry x="450" y="545" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HzE2CwApqVh-O_OXmwB3-1" value="onCreate Subscription" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="0RtrhZzfjqJ7Ya9RWRAF-1">
+          <mxGeometry x="530" y="800" width="50" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
