@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-05T04:43:00.231Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.146 Safari/537.36" etag="sXdIJLaD9TebixDFcwYt" version="14.2.9" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2021-02-05T04:43:15.239Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.146 Safari/537.36" etag="2gSlQZL2xe8VzjcjqIyE" version="14.2.9" type="github" pages="9">
   <diagram id="kI84c9Ne_buLZaDN4V-V" name="AWS architecture">
     <mxGraphModel dx="2249" dy="802" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1605,12 +1605,6 @@
         </mxCell>
         <mxCell id="Do97n5DqDxPq_aklLrDH-8" value="Monitoring" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;" parent="bCj6ml5823CtcG9ZzvgO-1" vertex="1">
           <mxGeometry x="679" y="790" width="70" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="8oKoOqKCVd2Z0j3pebva-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;" edge="1" parent="bCj6ml5823CtcG9ZzvgO-1" source="NS4ms12QKpO1490YuTjr-0" target="Do97n5DqDxPq_aklLrDH-8">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="713.9999999999995" y="659.9999999999998" as="targetPoint" />
-            <mxPoint x="713.9999999999995" y="809.9999999999998" as="sourcePoint" />
-          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
