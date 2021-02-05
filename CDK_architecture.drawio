@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-05T04:41:13.102Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.146 Safari/537.36" etag="gGjdRbU2pduI0277LFdo" version="14.2.9" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2021-02-05T04:42:27.504Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.146 Safari/537.36" etag="m9E99J642bCxU6C6yBoI" version="14.2.9" type="github" pages="9">
   <diagram id="kI84c9Ne_buLZaDN4V-V" name="AWS architecture">
     <mxGraphModel dx="2249" dy="802" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1209,7 +1209,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="bcvhvXHk1dJnLa9i6X2f" name="Page-5">
-    <mxGraphModel dx="2249" dy="802" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2858" dy="1146" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="bCj6ml5823CtcG9ZzvgO-0" />
         <mxCell id="bCj6ml5823CtcG9ZzvgO-1" parent="bCj6ml5823CtcG9ZzvgO-0" />
@@ -1592,7 +1592,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8oKoOqKCVd2Z0j3pebva-0" value="AWS Lamdba" style="outlineConnect=0;fontColor=#232F3E;gradientColor=#F78E04;gradientDirection=north;fillColor=#D05C17;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.lambda;" vertex="1" parent="bCj6ml5823CtcG9ZzvgO-1">
-          <mxGeometry x="199" y="665" width="78" height="78" as="geometry" />
+          <mxGeometry x="203" y="847" width="78" height="78" as="geometry" />
         </mxCell>
         <mxCell id="8oKoOqKCVd2Z0j3pebva-1" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="bCj6ml5823CtcG9ZzvgO-1" target="8oKoOqKCVd2Z0j3pebva-0">
           <mxGeometry relative="1" as="geometry">
@@ -1604,7 +1604,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="8oKoOqKCVd2Z0j3pebva-3" value="MQTT" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;" vertex="1" parent="bCj6ml5823CtcG9ZzvgO-1">
-          <mxGeometry x="212" y="645" width="50" height="20" as="geometry" />
+          <mxGeometry x="217" y="815" width="50" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
