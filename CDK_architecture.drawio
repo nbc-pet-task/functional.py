@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-02-16T01:12:57.771Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="y1LbxHRZdxABpKMYw02z" version="14.3.1" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2021-02-16T02:35:48.022Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="ab4Tg9aNriXU7WvEPrHm" version="14.2.9" type="github" pages="11">
   <diagram id="kI84c9Ne_buLZaDN4V-V" name="AWS architecture">
-    <mxGraphModel dx="2249" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1926" dy="760" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="cHVJoLJTV80GJNCRkLCo-0" />
         <mxCell id="cHVJoLJTV80GJNCRkLCo-1" parent="cHVJoLJTV80GJNCRkLCo-0" />
@@ -3672,6 +3672,56 @@
         </mxCell>
         <mxCell id="Qu6VZJZx7RDjk07OJJDz-7" value="Act 데이터 없을 경우 Query 반복 or delay" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="otInP3ESSKGkxRthbVFu-1">
           <mxGeometry x="810" y="720" width="120" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="tp6koBBnVgswinww9QSP" name="Insight">
+    <mxGraphModel dx="1099" dy="760" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="3pWIQJEij0LIttb0CM7z-0" />
+        <mxCell id="3pWIQJEij0LIttb0CM7z-1" parent="3pWIQJEij0LIttb0CM7z-0" />
+        <mxCell id="3pWIQJEij0LIttb0CM7z-2" value="&amp;nbsp; Specific Data Event" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="3pWIQJEij0LIttb0CM7z-1">
+          <mxGeometry x="110" y="130" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3pWIQJEij0LIttb0CM7z-3" value="UPDATE &lt;br&gt;reference table" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="3pWIQJEij0LIttb0CM7z-1">
+          <mxGeometry x="110" y="210" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3pWIQJEij0LIttb0CM7z-4" value="SCHEDULER" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="3pWIQJEij0LIttb0CM7z-1">
+          <mxGeometry x="110" y="400" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3pWIQJEij0LIttb0CM7z-5" value="RUN each LOGICs" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="3pWIQJEij0LIttb0CM7z-1">
+          <mxGeometry x="110" y="500" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3pWIQJEij0LIttb0CM7z-6" value="PUSH notification" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="3pWIQJEij0LIttb0CM7z-1">
+          <mxGeometry x="110" y="580" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3pWIQJEij0LIttb0CM7z-7" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#f5f5f5;strokeColor=#666666;" edge="1" parent="3pWIQJEij0LIttb0CM7z-1" source="3pWIQJEij0LIttb0CM7z-2" target="3pWIQJEij0LIttb0CM7z-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="540" y="180" as="sourcePoint" />
+            <mxPoint x="540" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3pWIQJEij0LIttb0CM7z-8" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#f5f5f5;strokeColor=#666666;" edge="1" parent="3pWIQJEij0LIttb0CM7z-1" source="3pWIQJEij0LIttb0CM7z-3" target="3pWIQJEij0LIttb0CM7z-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="180" as="sourcePoint" />
+            <mxPoint x="180" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3pWIQJEij0LIttb0CM7z-9" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#f5f5f5;strokeColor=#666666;" edge="1" parent="3pWIQJEij0LIttb0CM7z-1" source="3pWIQJEij0LIttb0CM7z-4" target="3pWIQJEij0LIttb0CM7z-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="260" as="sourcePoint" />
+            <mxPoint x="170" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3pWIQJEij0LIttb0CM7z-10" value="" style="endArrow=classic;html=1;dashed=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="3pWIQJEij0LIttb0CM7z-1" source="3pWIQJEij0LIttb0CM7z-5" target="3pWIQJEij0LIttb0CM7z-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="50" y="460" as="sourcePoint" />
+            <mxPoint x="100" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3pWIQJEij0LIttb0CM7z-11" value="&lt;h1 style=&quot;font-size: 12px&quot;&gt;Insight Card &amp;amp; &lt;font color=&quot;#3399ff&quot;&gt;Badge&amp;nbsp;&lt;/font&gt;&amp;amp; &lt;font color=&quot;#ff66ff&quot;&gt;Goal&lt;/font&gt; (Pet_data_210129_v0.1)&lt;/h1&gt;&lt;div&gt;&lt;b&gt;[섭취량]&lt;/b&gt;&lt;/div&gt;&lt;div&gt;+ (물/사료) 일일 섭취량 / 권장 섭취량&lt;/div&gt;&lt;div&gt;+ (물/사료) 주간평균 섭취량 / 권장섭취량&lt;/div&gt;&lt;div&gt;+ (물/사료) 월간평균 섭취량 / 권장섭취량&lt;/div&gt;&lt;div&gt;!! 사료 권장섭취량 : 몸무게, 나이, 특성, 사료정보(cal) 조합&lt;/div&gt;&lt;div&gt;!! 물 권장섭취량 : 몸무게(소/중/대형), 특정시점(여름=1.1)&lt;/div&gt;&lt;div&gt;? 주간/월간 데이터 이빠짐에 대한 정책 수립 (~2/17, 박정민S)&lt;/div&gt;&lt;div&gt;!! [건강알림] (물/사료) 연속3일 평균섭취량 필요&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(51 , 153 , 255)&quot;&gt;+ (Point) (물/사료) 1일 권장량 섭취 시 증가&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;[활동량]&lt;/b&gt;&lt;/div&gt;&lt;div&gt;+ 일일 활동량 / 기준활동량&lt;/div&gt;&lt;div&gt;+ 주간 평균활동량 / 기준활동량&lt;/div&gt;&lt;div&gt;+ 일일 휴식량 / 기준휴식량&lt;/div&gt;&lt;div&gt;+ &lt;strike&gt;주간 평균휴식량 / 기준휴식량&lt;/strike&gt;&lt;/div&gt;&lt;div&gt;!! 기준활동량&amp;amp;기준휴식량 : 견종(가중치), 나이&lt;/div&gt;&lt;div&gt;!! 월간 평균활동량&amp;amp;평균휴식량은 없음&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;[산책]&lt;/b&gt;&lt;/div&gt;&lt;div&gt;+ 일일 산책시간 / 일일 권장산책시간&lt;/div&gt;&lt;div&gt;+ 주간 산책만족횟수&lt;/div&gt;&lt;div&gt;+ 월간 산책만족횟수&lt;/div&gt;&lt;div&gt;!! 권장산책시간 : 견종별 상이 (기본값 30분)&lt;/div&gt;&lt;div&gt;!! 산책만족조건 : 1회 최소 30분 이상&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#3399ff&quot;&gt;+ (Point) 총 누적 산책 거리&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(51 , 153 , 255)&quot;&gt;+ (Point) 산책 1회 10분/500m 이상 완료 시 100p (하루 최대3회)&lt;/span&gt;&lt;font color=&quot;#3399ff&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;[Advanced]&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;+ (섭취량/활동량) 주간별 6시간별 패턴(0-6-12-18-24) 구분&lt;br&gt;+ (섭취량/활동량) 동일 견종 비교&lt;br&gt;+ (섭취량/활동량) 같은 몸무게(1kg 범위) 다른견종 비교&lt;br&gt;&lt;br&gt;&lt;b&gt;[목표설정]&lt;/b&gt;&lt;br&gt;!! 현재 다이어트 루틴만 존재&lt;br&gt;+ 일일 섭취량 + 일일 활동량 / 권장 섭취량 + 권장 활동량&amp;nbsp; (95~100% 만족)&lt;br&gt;+ 주간 목표달성 횟수&lt;br&gt;+ 현재 체중 / 이전 체중 (체중감소비율%)" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=12;" vertex="1" parent="3pWIQJEij0LIttb0CM7z-1">
+          <mxGeometry x="260" y="130" width="370" height="540" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
