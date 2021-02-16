@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-16T07:59:37.872Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="cFevqXwk76x2wH9OnkRG" version="14.3.2" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2021-02-16T08:00:34.290Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="UUvMleTbzshdg_da8aGV" version="14.3.2" type="github" pages="9">
   <diagram id="kI84c9Ne_buLZaDN4V-V" name="AWS architecture">
     <mxGraphModel dx="2249" dy="1963" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -3319,7 +3319,7 @@
         <mxCell id="NcnBYKuPR-ekmC30tTbz-12" value="이벤트 :&amp;nbsp;&lt;br&gt;시작시간 / 종료시간&lt;br&gt;소변 / 대변 / 음수 / 교감" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="otInP3ESSKGkxRthbVFu-1">
           <mxGeometry x="1430" y="580" width="180" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="NcnBYKuPR-ekmC30tTbz-13" value="AppSync &amp;amp; DynamoDB" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#fff2cc;rounded=1;" vertex="1" parent="otInP3ESSKGkxRthbVFu-1">
+        <mxCell id="NcnBYKuPR-ekmC30tTbz-13" value="DynamoDB" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#fff2cc;rounded=1;" vertex="1" parent="otInP3ESSKGkxRthbVFu-1">
           <mxGeometry x="1380" y="521" width="100" height="760" as="geometry" />
         </mxCell>
         <mxCell id="NcnBYKuPR-ekmC30tTbz-15" value="Event Query &lt;br&gt;(petID &amp;amp; timestamp)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="otInP3ESSKGkxRthbVFu-1">
