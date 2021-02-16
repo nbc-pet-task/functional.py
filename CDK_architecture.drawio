@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-16T07:20:34.765Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="qB-c27y4YLbWhpf_pvpj" version="14.3.2" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2021-02-16T07:27:15.113Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="GgIzSeUwF4Xe8ypExqNB" version="14.3.2" type="github" pages="9">
   <diagram id="kI84c9Ne_buLZaDN4V-V" name="AWS architecture">
     <mxGraphModel dx="2249" dy="1963" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -3191,7 +3191,7 @@
           <mxGeometry x="1180" y="520" width="100" height="760" as="geometry" />
         </mxCell>
         <mxCell id="xS7BpD8Pz_ih5nK_U13z-11" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=1;strokeColor=#000000;" parent="ghBDydpibuRT41MZSuAA-3" vertex="1">
-          <mxGeometry x="50" y="370" width="10" height="30" as="geometry" />
+          <mxGeometry x="50" y="396" width="10" height="30" as="geometry" />
         </mxCell>
         <mxCell id="u7RwUS-N-lRM222yuDvf-0" value="GPX 데이터 수신" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="otInP3ESSKGkxRthbVFu-1" vertex="1">
           <mxGeometry x="680" y="700" width="120" height="40" as="geometry" />
@@ -3236,26 +3236,26 @@
         <mxCell id="xS7BpD8Pz_ih5nK_U13z-10" value="Activity dataset return" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="otInP3ESSKGkxRthbVFu-1" vertex="1">
           <mxGeometry x="1050.25" y="830" width="150" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="xS7BpD8Pz_ih5nK_U13z-12" value="GPX &amp;amp; Activity data mapping" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="otInP3ESSKGkxRthbVFu-1" vertex="1">
-          <mxGeometry x="1250" y="880" width="120" height="40" as="geometry" />
+        <mxCell id="xS7BpD8Pz_ih5nK_U13z-12" value="GPX &amp;amp; Activity data &amp;amp; Event mapping" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="otInP3ESSKGkxRthbVFu-1" vertex="1">
+          <mxGeometry x="1090" y="879" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Qu6VZJZx7RDjk07OJJDz-2" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;" parent="otInP3ESSKGkxRthbVFu-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1229.5" y="896" as="sourcePoint" />
-            <mxPoint x="1229.5" y="916" as="targetPoint" />
+            <mxPoint x="1229.5" y="922" as="sourcePoint" />
+            <mxPoint x="1229.5" y="942" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1170" y="906" />
+              <mxPoint x="1170" y="932" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="Qu6VZJZx7RDjk07OJJDz-3" value="" style="endArrow=classic;html=1;" parent="otInP3ESSKGkxRthbVFu-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1229.5" y="990" as="sourcePoint" />
-            <mxPoint x="820" y="990" as="targetPoint" />
+            <mxPoint x="1229.5" y="1052" as="sourcePoint" />
+            <mxPoint x="820" y="1052" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Qu6VZJZx7RDjk07OJJDz-4" value="Result file (GPX &amp;amp; Activity mapping)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="otInP3ESSKGkxRthbVFu-1" vertex="1">
-          <mxGeometry x="1010" y="969.5" width="200" height="20" as="geometry" />
+          <mxGeometry x="1010" y="1031.5" width="200" height="20" as="geometry" />
         </mxCell>
         <mxCell id="Qu6VZJZx7RDjk07OJJDz-5" value="" style="endArrow=classic;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="otInP3ESSKGkxRthbVFu-1" edge="1" target="ceNteBg1kD6_UWCmNh-X-15" source="ghBDydpibuRT41MZSuAA-3">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -3318,6 +3318,27 @@
         </mxCell>
         <mxCell id="NcnBYKuPR-ekmC30tTbz-12" value="이벤트 :&amp;nbsp;&lt;br&gt;시작시간 / 종료시간&lt;br&gt;소변 / 대변 / 음수 / 교감" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="otInP3ESSKGkxRthbVFu-1">
           <mxGeometry x="270" y="450" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="NcnBYKuPR-ekmC30tTbz-13" value="AppSync &amp;amp; DynamoDB" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#fff2cc;rounded=1;" vertex="1" parent="otInP3ESSKGkxRthbVFu-1">
+          <mxGeometry x="1380" y="521" width="100" height="760" as="geometry" />
+        </mxCell>
+        <mxCell id="NcnBYKuPR-ekmC30tTbz-15" value="Event Query &lt;br&gt;(petID &amp;amp; timestamp)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="otInP3ESSKGkxRthbVFu-1">
+          <mxGeometry x="1260" y="897.5" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="NcnBYKuPR-ekmC30tTbz-16" value="" style="endArrow=classic;html=1;" edge="1" parent="otInP3ESSKGkxRthbVFu-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1232.5" y="930" as="sourcePoint" />
+            <mxPoint x="1428" y="930" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NcnBYKuPR-ekmC30tTbz-17" value="" style="endArrow=classic;html=1;" edge="1" parent="otInP3ESSKGkxRthbVFu-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1430" y="940" as="sourcePoint" />
+            <mxPoint x="1240" y="940" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NcnBYKuPR-ekmC30tTbz-18" value="Event list return" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="otInP3ESSKGkxRthbVFu-1">
+          <mxGeometry x="1260" y="944" width="150" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
