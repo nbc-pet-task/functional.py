@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-17T00:33:55.226Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="-Owr2JzG_rS-lq5HzWdr" version="14.3.0" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2021-02-17T00:37:34.452Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="CmPLrFyboHj-HRmK6_NB" version="14.3.0" type="github" pages="10">
   <diagram id="kI84c9Ne_buLZaDN4V-V" name="AWS architecture">
     <mxGraphModel dx="2500" dy="2045" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -3209,7 +3209,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="hQe7JfWMLxix2Pn1ak4A" name="Walk">
-    <mxGraphModel dx="1422" dy="745" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="802" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
         <mxCell id="otInP3ESSKGkxRthbVFu-0" />
         <mxCell id="otInP3ESSKGkxRthbVFu-1" parent="otInP3ESSKGkxRthbVFu-0" />
@@ -3544,8 +3544,8 @@
         <mxCell id="NcnBYKuPR-ekmC30tTbz-6" value="No" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="otInP3ESSKGkxRthbVFu-1" vertex="1">
           <mxGeometry x="147.5" y="769" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="NcnBYKuPR-ekmC30tTbz-8" value="createWalk mutation" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fillColor=#f5f5f5;strokeColor=#666666;rounded=1;" parent="otInP3ESSKGkxRthbVFu-1" source="gVkRGMRc-hUrJpCnh5C2-0" target="r8_ejKks3YnbbZfJaxdZ-0" edge="1">
-          <mxGeometry x="0.3863" y="10" width="50" height="50" relative="1" as="geometry">
+        <mxCell id="NcnBYKuPR-ekmC30tTbz-8" value="addEvent(WALK_START) mutation" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fillColor=#f5f5f5;strokeColor=#666666;rounded=1;" parent="otInP3ESSKGkxRthbVFu-1" source="gVkRGMRc-hUrJpCnh5C2-0" target="r8_ejKks3YnbbZfJaxdZ-0" edge="1">
+          <mxGeometry x="0.391" y="10" width="50" height="50" relative="1" as="geometry">
             <mxPoint x="288.5" y="679" as="sourcePoint" />
             <mxPoint x="290.5" y="460" as="targetPoint" />
             <Array as="points">
@@ -3558,7 +3558,7 @@
         <mxCell id="NcnBYKuPR-ekmC30tTbz-9" value="Yes" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="otInP3ESSKGkxRthbVFu-1" vertex="1">
           <mxGeometry x="202" y="700" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="NcnBYKuPR-ekmC30tTbz-10" value="endWalk mutation" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fillColor=#f5f5f5;strokeColor=#666666;" parent="otInP3ESSKGkxRthbVFu-1" target="r8_ejKks3YnbbZfJaxdZ-0" edge="1">
+        <mxCell id="NcnBYKuPR-ekmC30tTbz-10" value="addEvent(WALK_END) mutation" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fillColor=#f5f5f5;strokeColor=#666666;" parent="otInP3ESSKGkxRthbVFu-1" target="r8_ejKks3YnbbZfJaxdZ-0" edge="1">
           <mxGeometry x="0.0052" y="10" width="50" height="50" relative="1" as="geometry">
             <mxPoint x="147.5" y="900" as="sourcePoint" />
             <mxPoint x="312.5" y="750" as="targetPoint" />
@@ -3569,8 +3569,8 @@
             <mxPoint x="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NcnBYKuPR-ekmC30tTbz-11" value="createEvent nutation" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="otInP3ESSKGkxRthbVFu-1" source="NcnBYKuPR-ekmC30tTbz-5" target="r8_ejKks3YnbbZfJaxdZ-0" edge="1">
-          <mxGeometry x="0.0124" y="9" width="50" height="50" relative="1" as="geometry">
+        <mxCell id="NcnBYKuPR-ekmC30tTbz-11" value="addEvent mutation&lt;br&gt;- WALK_PAUSE&lt;br&gt;-WALK_RESUME&lt;br&gt;-PEE&lt;br&gt;-POO" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;align=left;" parent="otInP3ESSKGkxRthbVFu-1" source="NcnBYKuPR-ekmC30tTbz-5" target="r8_ejKks3YnbbZfJaxdZ-0" edge="1">
+          <mxGeometry x="-0.3529" y="-41" width="50" height="50" relative="1" as="geometry">
             <mxPoint x="665.5" y="890" as="sourcePoint" />
             <mxPoint x="250.5" y="729" as="targetPoint" />
             <mxPoint as="offset" />
@@ -3652,7 +3652,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="tp6koBBnVgswinww9QSP" name="Insight">
-    <mxGraphModel dx="1422" dy="745" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2062" dy="1122" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="3pWIQJEij0LIttb0CM7z-0" />
         <mxCell id="3pWIQJEij0LIttb0CM7z-1" parent="3pWIQJEij0LIttb0CM7z-0" />
