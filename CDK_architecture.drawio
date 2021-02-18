@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-18T23:34:06.793Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="gFfzize8Q26BrkCUWzYq" version="14.3.0" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2021-02-18T23:41:11.778Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="MyzFB99dxn5IsXWTjTMh" version="14.3.0" type="github" pages="10">
   <diagram id="kI84c9Ne_buLZaDN4V-V" name="AWS architecture">
     <mxGraphModel dx="2249" dy="1971" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -561,7 +561,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="urhagR4Mz2EAsUIp2mXE" name="Register Dev">
-    <mxGraphModel dx="2062" dy="1122" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="802" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0RtrhZzfjqJ7Ya9RWRAF-0" />
         <mxCell id="0RtrhZzfjqJ7Ya9RWRAF-1" parent="0RtrhZzfjqJ7Ya9RWRAF-0" />
@@ -715,7 +715,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="OcHEU4iE_A89n6C1LT4B" name="연결flow">
-    <mxGraphModel dx="1422" dy="745" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="802" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
         <mxCell id="j5lbtWY_CVDqfyDg-Ocu-0" />
         <mxCell id="j5lbtWY_CVDqfyDg-Ocu-1" parent="j5lbtWY_CVDqfyDg-Ocu-0" />
@@ -1420,7 +1420,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ell-NQsQsn6KH79OYZ6-" name="upload sensor data">
-    <mxGraphModel dx="2062" dy="1122" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="802" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="drPZ285F0mqxZkz1HPR6-0" />
         <mxCell id="drPZ285F0mqxZkz1HPR6-1" parent="drPZ285F0mqxZkz1HPR6-0" />
@@ -1614,7 +1614,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="9rwZBwarkveoyutjNHNz" name="Pet Schema">
-    <mxGraphModel dx="2839" dy="1837" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="11134" dy="6516" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="lRxQcqwQzCrdxf21fRnw-0" />
         <mxCell id="lRxQcqwQzCrdxf21fRnw-1" parent="lRxQcqwQzCrdxf21fRnw-0" />
