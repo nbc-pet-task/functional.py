@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-24T04:28:17.317Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="gRnQPuE4-qe1SvPOlSOH" version="14.4.2" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2021-02-24T04:28:31.711Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="oFmLu4f6Sto3sIcvSWaF" version="14.4.2" type="github" pages="10">
   <diagram id="kI84c9Ne_buLZaDN4V-V" name="AWS architecture">
     <mxGraphModel dx="2249" dy="1963" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -715,7 +715,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="OcHEU4iE_A89n6C1LT4B" name="연결flow">
-    <mxGraphModel dx="1422" dy="2714" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
         <mxCell id="j5lbtWY_CVDqfyDg-Ocu-0" />
         <mxCell id="j5lbtWY_CVDqfyDg-Ocu-1" parent="j5lbtWY_CVDqfyDg-Ocu-0" />
@@ -1058,7 +1058,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="HBYaWVBXITILvSHxqXpn-84" value="" style="line;strokeWidth=2;direction=south;html=1;" parent="j5lbtWY_CVDqfyDg-Ocu-1" vertex="1">
-          <mxGeometry x="520" width="10" height="1860" as="geometry" />
+          <mxGeometry x="520" y="30" width="10" height="1830" as="geometry" />
         </mxCell>
         <mxCell id="DxxelCMbothS1nbYSK7c-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="j5lbtWY_CVDqfyDg-Ocu-1" source="DxxelCMbothS1nbYSK7c-0" target="HBYaWVBXITILvSHxqXpn-41" edge="1">
           <mxGeometry relative="1" as="geometry" />
