@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-24T01:11:51.583Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="B43vALgzbcC6Hae5HLBd" version="14.3.2" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2021-02-24T01:13:30.533Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="hk5f-fq-ogSaDNq3-Tai" version="14.3.2" type="github" pages="10">
   <diagram id="kI84c9Ne_buLZaDN4V-V" name="AWS architecture">
     <mxGraphModel dx="2249" dy="1963" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -929,10 +929,10 @@
           <mxGeometry x="280" y="1800" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="HBYaWVBXITILvSHxqXpn-51" value="App" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" parent="j5lbtWY_CVDqfyDg-Ocu-1" vertex="1">
-          <mxGeometry x="290" y="-10" width="100" height="40" as="geometry" />
+          <mxGeometry x="290" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="HBYaWVBXITILvSHxqXpn-52" value="Device" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" parent="j5lbtWY_CVDqfyDg-Ocu-1" vertex="1">
-          <mxGeometry x="650" y="-10" width="100" height="40" as="geometry" />
+          <mxGeometry x="650" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="JRUnbZaAMwLMJmbmV7aB-0" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="j5lbtWY_CVDqfyDg-Ocu-1" source="HBYaWVBXITILvSHxqXpn-53" target="ZuMZxRmdsSZBsHlZVqke-4" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -1077,7 +1077,7 @@
         <mxCell id="DxxelCMbothS1nbYSK7c-0" value="&lt;font face=&quot;helvetica&quot;&gt;서버에서&lt;br&gt;받은 인증서가&lt;br&gt;존재?&lt;br&gt;&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="j5lbtWY_CVDqfyDg-Ocu-1" vertex="1">
           <mxGeometry x="640" y="1440" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="DxxelCMbothS1nbYSK7c-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="j5lbtWY_CVDqfyDg-Ocu-1" source="DxxelCMbothS1nbYSK7c-1" target="HBYaWVBXITILvSHxqXpn-43" edge="1">
+        <mxCell id="DxxelCMbothS1nbYSK7c-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="j5lbtWY_CVDqfyDg-Ocu-1" source="ZuMZxRmdsSZBsHlZVqke-11" target="HBYaWVBXITILvSHxqXpn-43" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DxxelCMbothS1nbYSK7c-1" value="Hello 메시지 전송" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="j5lbtWY_CVDqfyDg-Ocu-1" vertex="1">
@@ -1117,7 +1117,7 @@
         <mxCell id="ZuMZxRmdsSZBsHlZVqke-6" value="No" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="j5lbtWY_CVDqfyDg-Ocu-1">
           <mxGeometry x="880" y="980" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="ZuMZxRmdsSZBsHlZVqke-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="j5lbtWY_CVDqfyDg-Ocu-1" source="ZuMZxRmdsSZBsHlZVqke-9" target="HBYaWVBXITILvSHxqXpn-18">
+        <mxCell id="ZuMZxRmdsSZBsHlZVqke-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="j5lbtWY_CVDqfyDg-Ocu-1" source="ZuMZxRmdsSZBsHlZVqke-9" target="HBYaWVBXITILvSHxqXpn-18">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="890" y="1010" as="sourcePoint" />
             <mxPoint x="770" y="230" as="targetPoint" />
@@ -1138,6 +1138,15 @@
               <mxPoint x="990" y="1040" />
               <mxPoint x="990" y="60" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZuMZxRmdsSZBsHlZVqke-11" value="Event timer&lt;br&gt;stop" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="j5lbtWY_CVDqfyDg-Ocu-1">
+          <mxGeometry x="640" y="1800" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZuMZxRmdsSZBsHlZVqke-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="j5lbtWY_CVDqfyDg-Ocu-1" source="DxxelCMbothS1nbYSK7c-1" target="ZuMZxRmdsSZBsHlZVqke-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="700" y="1760" as="sourcePoint" />
+            <mxPoint x="700" y="1880" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
