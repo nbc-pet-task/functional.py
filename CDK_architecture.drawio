@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-25T10:17:06.784Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="Gap3y3q2P9mr2n4RKZq_" version="14.4.2" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2021-02-25T10:19:16.678Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="AYtVSCLdlUjQ7I5j_3Ll" version="14.4.2" type="github" pages="10">
   <diagram id="kI84c9Ne_buLZaDN4V-V" name="AWS architecture">
     <mxGraphModel dx="1926" dy="1929" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -3373,7 +3373,7 @@
           <mxGeometry x="1040" y="1758" width="180" height="100" as="geometry" />
         </mxCell>
         <mxCell id="hcnUqRQQGJc-P8a1g53I-0" value="SharedData" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=#dae8fc;fontFamily=Verdana;fontSize=12;strokeColor=#6c8ebf;" parent="lRxQcqwQzCrdxf21fRnw-1" vertex="1">
-          <mxGeometry x="-1163" y="907" width="220" height="353" as="geometry" />
+          <mxGeometry x="-1163" y="907" width="220" height="364" as="geometry" />
         </mxCell>
         <mxCell id="hcnUqRQQGJc-P8a1g53I-1" value="+ petId: ID!" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hcnUqRQQGJc-P8a1g53I-0" vertex="1">
           <mxGeometry y="26" width="220" height="26" as="geometry" />
@@ -3384,32 +3384,35 @@
         <mxCell id="hcnUqRQQGJc-P8a1g53I-3" value="+ weight: Float (몸무게)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hcnUqRQQGJc-P8a1g53I-0" vertex="1">
           <mxGeometry y="78" width="220" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="fNC2ASx6tPcQN3pjJ_me-0" value="+ recmdCalorie: Int (일일필요열량)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="hcnUqRQQGJc-P8a1g53I-0">
+        <mxCell id="fNC2ASx6tPcQN3pjJ_me-1" value="+ foods: [Food] (사료정보 복사)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="hcnUqRQQGJc-P8a1g53I-0">
           <mxGeometry y="104" width="220" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="hcnUqRQQGJc-P8a1g53I-4" value="+ recmdFeedIntake: Int (권장섭취량)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hcnUqRQQGJc-P8a1g53I-0" vertex="1">
+        <mxCell id="fNC2ASx6tPcQN3pjJ_me-0" value="+ recmdCalorie: Int (일일필요열량)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="hcnUqRQQGJc-P8a1g53I-0">
           <mxGeometry y="130" width="220" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="hcnUqRQQGJc-P8a1g53I-5" value="+ recmdWaterIntake: Int (권장음수량)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hcnUqRQQGJc-P8a1g53I-0" vertex="1">
+        <mxCell id="hcnUqRQQGJc-P8a1g53I-4" value="+ recmdFeedIntake: Int (권장섭취량)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hcnUqRQQGJc-P8a1g53I-0" vertex="1">
           <mxGeometry y="156" width="220" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="hcnUqRQQGJc-P8a1g53I-6" value="+ recmdActiveTime: Int (기준활동량)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hcnUqRQQGJc-P8a1g53I-0" vertex="1">
+        <mxCell id="hcnUqRQQGJc-P8a1g53I-5" value="+ recmdWaterIntake: Int (권장음수량)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hcnUqRQQGJc-P8a1g53I-0" vertex="1">
           <mxGeometry y="182" width="220" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="hcnUqRQQGJc-P8a1g53I-7" value="+ recmdWalkTime: Int (권장산책시간)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hcnUqRQQGJc-P8a1g53I-0" vertex="1">
+        <mxCell id="hcnUqRQQGJc-P8a1g53I-6" value="+ recmdActiveTime: Int (기준활동량)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hcnUqRQQGJc-P8a1g53I-0" vertex="1">
           <mxGeometry y="208" width="220" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="hcnUqRQQGJc-P8a1g53I-8" value="+ targetFeedIntake: Int (목표-섭취량)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hcnUqRQQGJc-P8a1g53I-0" vertex="1">
+        <mxCell id="hcnUqRQQGJc-P8a1g53I-7" value="+ recmdWalkTime: Int (권장산책시간)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hcnUqRQQGJc-P8a1g53I-0" vertex="1">
           <mxGeometry y="234" width="220" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="hcnUqRQQGJc-P8a1g53I-9" value="+ targetWaterIntake: Int (목표-음수량)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hcnUqRQQGJc-P8a1g53I-0" vertex="1">
+        <mxCell id="hcnUqRQQGJc-P8a1g53I-8" value="+ targetFeedIntake: Int (목표-섭취량)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hcnUqRQQGJc-P8a1g53I-0" vertex="1">
           <mxGeometry y="260" width="220" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="hcnUqRQQGJc-P8a1g53I-10" value="+ targetActiveTime: Int (목표-활동량)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hcnUqRQQGJc-P8a1g53I-0" vertex="1">
+        <mxCell id="hcnUqRQQGJc-P8a1g53I-9" value="+ targetWaterIntake: Int (목표-음수량)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hcnUqRQQGJc-P8a1g53I-0" vertex="1">
           <mxGeometry y="286" width="220" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="hcnUqRQQGJc-P8a1g53I-11" value="+ targetWalkTime: Int (목표-산책시간)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hcnUqRQQGJc-P8a1g53I-0" vertex="1">
+        <mxCell id="hcnUqRQQGJc-P8a1g53I-10" value="+ targetActiveTime: Int (목표-활동량)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hcnUqRQQGJc-P8a1g53I-0" vertex="1">
           <mxGeometry y="312" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="hcnUqRQQGJc-P8a1g53I-11" value="+ targetWalkTime: Int (목표-산책시간)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hcnUqRQQGJc-P8a1g53I-0" vertex="1">
+          <mxGeometry y="338" width="220" height="26" as="geometry" />
         </mxCell>
         <mxCell id="hcnUqRQQGJc-P8a1g53I-14" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;SharedDataTable&lt;br&gt;&lt;/div&gt;&lt;table style=&quot;width: 100% ; font-size: 1em&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;ParitionKey&lt;/td&gt;&lt;td&gt;petId: ID!&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;" parent="lRxQcqwQzCrdxf21fRnw-1" vertex="1">
           <mxGeometry x="-1163" y="1270" width="220" height="40" as="geometry" />
