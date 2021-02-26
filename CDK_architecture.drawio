@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-02-26T13:38:53.025Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="7VnupsXSOszR1od8cQB8" version="14.4.2" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2021-02-26T13:46:44.745Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="ecY4ig90BHZCL5HTitKh" version="14.4.2" type="github" pages="10">
   <diagram id="kI84c9Ne_buLZaDN4V-V" name="AWS architecture">
-    <mxGraphModel dx="4169" dy="3011" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3612" dy="2704" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="cHVJoLJTV80GJNCRkLCo-0" />
         <mxCell id="cHVJoLJTV80GJNCRkLCo-1" parent="cHVJoLJTV80GJNCRkLCo-0" />
@@ -319,7 +319,7 @@
         <mxCell id="zkYQh9Ts-43rfn-zgROu-75" value="Image upload" style="text;html=1;resizable=0;autosize=1;align=left;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;dashed=1;fontStyle=1;fontColor=#B3B3B3;" parent="cHVJoLJTV80GJNCRkLCo-1" vertex="1">
           <mxGeometry x="-103" y="-730" width="90" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="zkYQh9Ts-43rfn-zgROu-76" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;" parent="cHVJoLJTV80GJNCRkLCo-1" source="zkYQh9Ts-43rfn-zgROu-77" target="zkYQh9Ts-43rfn-zgROu-79" edge="1">
+        <mxCell id="zkYQh9Ts-43rfn-zgROu-76" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" parent="cHVJoLJTV80GJNCRkLCo-1" source="zkYQh9Ts-43rfn-zgROu-77" target="zkYQh9Ts-43rfn-zgROu-79" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
           </mxGeometry>
@@ -331,7 +331,7 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="260" y="30" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="130" y="30" />
+              <mxPoint x="136" y="30" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -1652,7 +1652,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="9rwZBwarkveoyutjNHNz" name="Pet Schema">
-    <mxGraphModel dx="3068" dy="1942" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" page="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="lRxQcqwQzCrdxf21fRnw-0" />
         <mxCell id="lRxQcqwQzCrdxf21fRnw-1" parent="lRxQcqwQzCrdxf21fRnw-0" />
@@ -3706,7 +3706,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="hQe7JfWMLxix2Pn1ak4A" name="Walk">
-    <mxGraphModel dx="3342" dy="1842" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
         <mxCell id="otInP3ESSKGkxRthbVFu-0" />
         <mxCell id="otInP3ESSKGkxRthbVFu-1" parent="otInP3ESSKGkxRthbVFu-0" />
@@ -4239,7 +4239,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="v63v5bAcMHdAFGbLNKpu" name="Event flow">
-    <mxGraphModel dx="4169" dy="1842" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2249" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="KKdSm2Vs2WDGWm-zqNR0-0" />
         <mxCell id="KKdSm2Vs2WDGWm-zqNR0-1" parent="KKdSm2Vs2WDGWm-zqNR0-0" />
