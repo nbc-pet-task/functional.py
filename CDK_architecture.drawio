@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-02T14:09:39.478Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="C_6T9Lir90QJ-3bOV1uS" version="14.4.3" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2021-03-02T14:11:39.222Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="7OpG519oF0dG5oW4BKEF" version="14.4.3" type="github" pages="10">
   <diagram id="kI84c9Ne_buLZaDN4V-V" name="AWS architecture">
     <mxGraphModel dx="4169" dy="3011" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -4325,7 +4325,7 @@
         <mxCell id="qO0r29mA2HdJGsxneYqp-11" value="App" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="otInP3ESSKGkxRthbVFu-1">
           <mxGeometry x="116.5" y="1950" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="qO0r29mA2HdJGsxneYqp-12" value="GPX 데이터 기록" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="otInP3ESSKGkxRthbVFu-1">
+        <mxCell id="qO0r29mA2HdJGsxneYqp-12" value="GPX 데이터 기록&lt;br&gt;(rate : 10 seconds)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="otInP3ESSKGkxRthbVFu-1">
           <mxGeometry x="106.5" y="2100" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="qO0r29mA2HdJGsxneYqp-13" value="&lt;font color=&quot;#000000&quot; face=&quot;helvetica&quot;&gt;산책 종료?&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="otInP3ESSKGkxRthbVFu-1">
