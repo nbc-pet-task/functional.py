@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-04T03:13:16.269Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="ZKdmwZlu0zrdFR8Bzmra" version="14.4.2" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2021-03-04T03:15:26.860Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="-Zz7LkTEosjUijnugkCQ" version="14.4.2" type="github" pages="10">
   <diagram id="kI84c9Ne_buLZaDN4V-V" name="AWS architecture">
     <mxGraphModel dx="2249" dy="1963" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -4709,10 +4709,10 @@
           <mxGeometry x="10" y="2970" width="60" height="20" as="geometry" />
         </mxCell>
         <mxCell id="EvkJ01kOMKByaRg8r_TC-5" value="동익" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="otInP3ESSKGkxRthbVFu-1">
-          <mxGeometry x="95.5" y="3050" width="60" height="20" as="geometry" />
+          <mxGeometry x="151.5" y="3050" width="60" height="20" as="geometry" />
         </mxCell>
         <mxCell id="EvkJ01kOMKByaRg8r_TC-7" value="&lt;div&gt;protected/walk/{userId}/{deviceId}/{walkId}/{timestamp}.csv&lt;/div&gt;&lt;div&gt;protected/walk/{userId}/{deviceId}/{walkId}/{start_timestamp}_{end_tamestamp}_origin.gpx&lt;/div&gt;&lt;div&gt;protected/walk/{userId}/{deviceId}/{walkId}/{start_timestamp}_{end_tamestamp}_merged.gpx&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="otInP3ESSKGkxRthbVFu-1">
-          <mxGeometry x="-663.5" y="3178" width="500" height="64" as="geometry" />
+          <mxGeometry x="230" y="3376" width="500" height="64" as="geometry" />
         </mxCell>
         <mxCell id="EvkJ01kOMKByaRg8r_TC-8" value="재우" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="otInP3ESSKGkxRthbVFu-1">
           <mxGeometry x="-240" y="3614.5" width="60" height="20" as="geometry" />
