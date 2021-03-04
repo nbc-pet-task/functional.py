@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-04T02:29:08.222Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="zh4PUwVpzgcyldOjD450" version="14.4.2" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2021-03-04T02:33:43.801Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="cJaUTVEmP_WiewBLmfMd" version="14.4.2" type="github" pages="10">
   <diagram id="kI84c9Ne_buLZaDN4V-V" name="AWS architecture">
     <mxGraphModel dx="2249" dy="1963" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -4544,6 +4544,9 @@
         <mxCell id="vLbTTkp8FHjkzo2bY2Bp-20" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=1;strokeColor=#000000;" vertex="1" parent="vLbTTkp8FHjkzo2bY2Bp-9">
           <mxGeometry x="45" y="115" width="10" height="55" as="geometry" />
         </mxCell>
+        <mxCell id="vLbTTkp8FHjkzo2bY2Bp-66" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="otInP3ESSKGkxRthbVFu-1" source="vLbTTkp8FHjkzo2bY2Bp-10" target="vLbTTkp8FHjkzo2bY2Bp-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="vLbTTkp8FHjkzo2bY2Bp-10" value="GPX data upload" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="otInP3ESSKGkxRthbVFu-1">
           <mxGeometry x="40" y="3120" width="120" height="40" as="geometry" />
         </mxCell>
@@ -4613,8 +4616,14 @@
         <mxCell id="vLbTTkp8FHjkzo2bY2Bp-31" value="Merged GPX 업로드" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="otInP3ESSKGkxRthbVFu-1">
           <mxGeometry x="872.5" y="3280" width="127.5" height="20" as="geometry" />
         </mxCell>
+        <mxCell id="vLbTTkp8FHjkzo2bY2Bp-67" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="otInP3ESSKGkxRthbVFu-1" source="vLbTTkp8FHjkzo2bY2Bp-32" target="vLbTTkp8FHjkzo2bY2Bp-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="vLbTTkp8FHjkzo2bY2Bp-32" value="Trigger Lambda 호출" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="otInP3ESSKGkxRthbVFu-1">
           <mxGeometry x="40" y="3200" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vLbTTkp8FHjkzo2bY2Bp-68" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="otInP3ESSKGkxRthbVFu-1" source="vLbTTkp8FHjkzo2bY2Bp-34" target="vLbTTkp8FHjkzo2bY2Bp-38">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="vLbTTkp8FHjkzo2bY2Bp-34" value="&lt;font color=&quot;#000000&quot; face=&quot;helvetica&quot;&gt;CSV?&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="otInP3ESSKGkxRthbVFu-1">
           <mxGeometry x="40" y="3280" width="120" height="80" as="geometry" />
@@ -4628,8 +4637,14 @@
             <mxPoint x="400" y="3450" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="vLbTTkp8FHjkzo2bY2Bp-69" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="otInP3ESSKGkxRthbVFu-1" source="vLbTTkp8FHjkzo2bY2Bp-38" target="vLbTTkp8FHjkzo2bY2Bp-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="vLbTTkp8FHjkzo2bY2Bp-38" value="&lt;font color=&quot;#000000&quot; face=&quot;helvetica&quot;&gt;GPX?&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="otInP3ESSKGkxRthbVFu-1">
           <mxGeometry x="40" y="3400" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vLbTTkp8FHjkzo2bY2Bp-71" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="otInP3ESSKGkxRthbVFu-1" source="vLbTTkp8FHjkzo2bY2Bp-39" target="vLbTTkp8FHjkzo2bY2Bp-70">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="vLbTTkp8FHjkzo2bY2Bp-39" value="Analytics 쿼리 &amp;amp;&amp;nbsp;&amp;nbsp;&lt;br&gt;Dataset 5분주기업데이트" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="otInP3ESSKGkxRthbVFu-1">
           <mxGeometry x="-160" y="3420" width="120" height="40" as="geometry" />
@@ -4720,6 +4735,38 @@
         </mxCell>
         <mxCell id="vLbTTkp8FHjkzo2bY2Bp-65" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="otInP3ESSKGkxRthbVFu-1">
           <mxGeometry x="-400" y="3510" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="vLbTTkp8FHjkzo2bY2Bp-73" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="otInP3ESSKGkxRthbVFu-1" source="vLbTTkp8FHjkzo2bY2Bp-70" target="vLbTTkp8FHjkzo2bY2Bp-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vLbTTkp8FHjkzo2bY2Bp-70" value="5분주기 Act CSV&lt;br&gt;업로드" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="otInP3ESSKGkxRthbVFu-1">
+          <mxGeometry x="-160" y="3500" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vLbTTkp8FHjkzo2bY2Bp-75" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="otInP3ESSKGkxRthbVFu-1" source="vLbTTkp8FHjkzo2bY2Bp-72" target="vLbTTkp8FHjkzo2bY2Bp-74">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vLbTTkp8FHjkzo2bY2Bp-79" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="otInP3ESSKGkxRthbVFu-1" source="vLbTTkp8FHjkzo2bY2Bp-72" target="vLbTTkp8FHjkzo2bY2Bp-70">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-180" y="3620" />
+              <mxPoint x="-180" y="3520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vLbTTkp8FHjkzo2bY2Bp-72" value="5분 주기 query 존재?&lt;br&gt;(자동)" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="otInP3ESSKGkxRthbVFu-1">
+          <mxGeometry x="-160" y="3580" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vLbTTkp8FHjkzo2bY2Bp-74" value="종료" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="otInP3ESSKGkxRthbVFu-1">
+          <mxGeometry x="-160" y="3700" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vLbTTkp8FHjkzo2bY2Bp-76" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="otInP3ESSKGkxRthbVFu-1">
+          <mxGeometry x="-350" y="3550" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="vLbTTkp8FHjkzo2bY2Bp-77" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="otInP3ESSKGkxRthbVFu-1">
+          <mxGeometry x="-150" y="3670" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="vLbTTkp8FHjkzo2bY2Bp-78" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="otInP3ESSKGkxRthbVFu-1">
+          <mxGeometry x="-180" y="3570" width="40" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
