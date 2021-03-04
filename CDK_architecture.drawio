@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-04T02:39:05.577Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="0C581mBV1eYg_8cuQDJQ" version="14.4.2" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2021-03-04T02:39:56.291Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="z0dfxHtydFWeNJPL0yEG" version="14.4.2" type="github" pages="10">
   <diagram id="kI84c9Ne_buLZaDN4V-V" name="AWS architecture">
     <mxGraphModel dx="2249" dy="1963" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -4763,6 +4763,9 @@
         </mxCell>
         <mxCell id="vLbTTkp8FHjkzo2bY2Bp-78" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="otInP3ESSKGkxRthbVFu-1">
           <mxGeometry x="187.5" y="3560" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="vLbTTkp8FHjkzo2bY2Bp-82" value="데이터 존재시 merge, 미존재시 s3에서 csv 삭제" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="otInP3ESSKGkxRthbVFu-1">
+          <mxGeometry x="1074" y="3310" width="110" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
