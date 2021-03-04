@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-04T02:00:12.483Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="0MtszSCaiY2l031I9Qgx" version="14.4.2" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2021-03-04T02:04:43.559Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="zajUdTtmjsDJUZc7_Ukz" version="14.4.2" type="github" pages="10">
   <diagram id="kI84c9Ne_buLZaDN4V-V" name="AWS architecture">
     <mxGraphModel dx="2249" dy="1963" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -4518,16 +4518,43 @@
           <mxGeometry x="545" y="2520" width="10" height="30" as="geometry" />
         </mxCell>
         <mxCell id="vLbTTkp8FHjkzo2bY2Bp-2" value="S3" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#fff2cc;rounded=1;" vertex="1" parent="otInP3ESSKGkxRthbVFu-1">
-          <mxGeometry x="118" y="3040" width="100" height="929" as="geometry" />
+          <mxGeometry x="530" y="3040" width="110" height="929" as="geometry" />
+        </mxCell>
+        <mxCell id="vLbTTkp8FHjkzo2bY2Bp-14" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=1;strokeColor=#000000;" vertex="1" parent="vLbTTkp8FHjkzo2bY2Bp-2">
+          <mxGeometry x="50" y="85" width="10" height="30" as="geometry" />
         </mxCell>
         <mxCell id="vLbTTkp8FHjkzo2bY2Bp-4" value="Trigger Lambda" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#fff2cc;rounded=1;" vertex="1" parent="otInP3ESSKGkxRthbVFu-1">
-          <mxGeometry x="400" y="3040" width="100" height="929" as="geometry" />
+          <mxGeometry x="812" y="3040" width="100" height="929" as="geometry" />
+        </mxCell>
+        <mxCell id="vLbTTkp8FHjkzo2bY2Bp-16" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=1;strokeColor=#000000;" vertex="1" parent="vLbTTkp8FHjkzo2bY2Bp-4">
+          <mxGeometry x="45" y="100" width="10" height="40" as="geometry" />
         </mxCell>
         <mxCell id="vLbTTkp8FHjkzo2bY2Bp-8" value="산책 merge" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="otInP3ESSKGkxRthbVFu-1">
-          <mxGeometry x="242" y="2980" width="110" height="20" as="geometry" />
+          <mxGeometry x="475.5" y="2960" width="110" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="vLbTTkp8FHjkzo2bY2Bp-9" value="Merge Lambda" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#fff2cc;rounded=1;" vertex="1" parent="otInP3ESSKGkxRthbVFu-1">
-          <mxGeometry x="679" y="3040" width="100" height="929" as="geometry" />
+        <mxCell id="vLbTTkp8FHjkzo2bY2Bp-9" value="Analytics" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#fff2cc;rounded=1;" vertex="1" parent="otInP3ESSKGkxRthbVFu-1">
+          <mxGeometry x="1039" y="3040" width="100" height="929" as="geometry" />
+        </mxCell>
+        <mxCell id="vLbTTkp8FHjkzo2bY2Bp-10" value="GPX data upload" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="otInP3ESSKGkxRthbVFu-1">
+          <mxGeometry x="160" y="3120" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vLbTTkp8FHjkzo2bY2Bp-11" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="otInP3ESSKGkxRthbVFu-1" source="vLbTTkp8FHjkzo2bY2Bp-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="700" y="3200" as="sourcePoint" />
+            <mxPoint x="580" y="3140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vLbTTkp8FHjkzo2bY2Bp-12" value="" style="endArrow=classic;html=1;exitX=1.3;exitY=0.667;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="otInP3ESSKGkxRthbVFu-1" source="vLbTTkp8FHjkzo2bY2Bp-14" target="vLbTTkp8FHjkzo2bY2Bp-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="585.5" y="3180" as="sourcePoint" />
+            <mxPoint x="860" y="3180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vLbTTkp8FHjkzo2bY2Bp-15" value="File upload trigger" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="otInP3ESSKGkxRthbVFu-1">
+          <mxGeometry x="669" y="3120" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="vLbTTkp8FHjkzo2bY2Bp-17" value="Merge Lambda" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#fff2cc;rounded=1;" vertex="1" parent="otInP3ESSKGkxRthbVFu-1">
+          <mxGeometry x="1282" y="3040" width="100" height="929" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
