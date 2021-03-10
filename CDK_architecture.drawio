@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-10T22:59:52.326Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="h9qUw4Fwpm59DlUZRcEq" version="14.4.5" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2021-03-10T23:00:32.306Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="hyUgyVa7hvpH692p8Y6Y" version="14.4.5" type="github" pages="10">
   <diagram id="kI84c9Ne_buLZaDN4V-V" name="AWS architecture">
     <mxGraphModel dx="2249" dy="1914" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1945,7 +1945,7 @@
         <mxCell id="nQxx70vJCMNh47ihLn_w-1" value="+ water: WaterDaily" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="AgIgylYJdQqGcv1YdMd6-111" vertex="1">
           <mxGeometry y="156" width="185" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="OmtfYpk_8qg8URAygXGr-1" value="+ walk: Walk" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="AgIgylYJdQqGcv1YdMd6-111" vertex="1">
+        <mxCell id="OmtfYpk_8qg8URAygXGr-1" value="+ walk: [Walk]" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="AgIgylYJdQqGcv1YdMd6-111" vertex="1">
           <mxGeometry y="182" width="185" height="26" as="geometry" />
         </mxCell>
         <mxCell id="OmtfYpk_8qg8URAygXGr-2" value="+ insights: [Insight]" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="AgIgylYJdQqGcv1YdMd6-111" vertex="1">
