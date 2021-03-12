@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-03-11T06:25:34.012Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="5urOBRUszemA8-QCW2kz" version="14.4.7" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2021-03-12T00:48:50.988Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="j5ynvCNnpKV9Dgva6tte" version="14.4.6" type="github" pages="10">
   <diagram id="kI84c9Ne_buLZaDN4V-V" name="AWS architecture">
-    <mxGraphModel dx="2249" dy="1931" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4169" dy="3011" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="cHVJoLJTV80GJNCRkLCo-0" />
         <mxCell id="cHVJoLJTV80GJNCRkLCo-1" parent="cHVJoLJTV80GJNCRkLCo-0" />
@@ -3847,7 +3847,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="hQe7JfWMLxix2Pn1ak4A" name="Walk">
-    <mxGraphModel dx="3262" dy="1123" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
+    <mxGraphModel dx="2791" dy="877" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
         <mxCell id="otInP3ESSKGkxRthbVFu-0" />
         <mxCell id="otInP3ESSKGkxRthbVFu-1" parent="otInP3ESSKGkxRthbVFu-0" />
@@ -4769,7 +4769,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="vLbTTkp8FHjkzo2bY2Bp-43" value="종료" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="otInP3ESSKGkxRthbVFu-1" vertex="1">
-          <mxGeometry x="-120" y="3990" width="120" height="40" as="geometry" />
+          <mxGeometry x="-120" y="4390" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="vLbTTkp8FHjkzo2bY2Bp-46" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="otInP3ESSKGkxRthbVFu-1" vertex="1">
           <mxGeometry x="-135" y="3500" width="110" height="20" as="geometry" />
@@ -4782,7 +4782,7 @@
             <mxPoint x="-160" y="3750" as="targetPoint" />
             <Array as="points">
               <mxPoint x="-170" y="3750" />
-              <mxPoint x="-170" y="4010" />
+              <mxPoint x="-170" y="4410" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -4795,7 +4795,12 @@
         <mxCell id="vLbTTkp8FHjkzo2bY2Bp-53" value="Act+GPX merge" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="otInP3ESSKGkxRthbVFu-1" vertex="1">
           <mxGeometry x="-120" y="3830" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="vLbTTkp8FHjkzo2bY2Bp-83" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="otInP3ESSKGkxRthbVFu-1" source="vLbTTkp8FHjkzo2bY2Bp-54" target="vLbTTkp8FHjkzo2bY2Bp-43" edge="1">
+        <mxCell id="vLbTTkp8FHjkzo2bY2Bp-83" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="otInP3ESSKGkxRthbVFu-1" target="vLbTTkp8FHjkzo2bY2Bp-43" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-60" y="4330" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nk_luDwOTYzCnL8JQANy-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="otInP3ESSKGkxRthbVFu-1" source="vLbTTkp8FHjkzo2bY2Bp-54" target="nk_luDwOTYzCnL8JQANy-0">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="vLbTTkp8FHjkzo2bY2Bp-54" value="S3에 merged GPX &lt;br&gt;업로드" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="otInP3ESSKGkxRthbVFu-1" vertex="1">
@@ -4903,8 +4908,8 @@
             <mxPoint x="175.02999999999952" y="3890" as="targetPoint" />
             <mxPoint x="175.02999999999952" y="3630" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="80" y="3450" />
-              <mxPoint x="80" y="4010" />
+              <mxPoint x="50" y="3450" />
+              <mxPoint x="50" y="4410" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -4962,6 +4967,36 @@
             </Array>
             <mxPoint x="1" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="nk_luDwOTYzCnL8JQANy-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="otInP3ESSKGkxRthbVFu-1" source="nk_luDwOTYzCnL8JQANy-0" target="nk_luDwOTYzCnL8JQANy-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nk_luDwOTYzCnL8JQANy-0" value="GMap 이미지 생성&lt;br&gt;및 업로드" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="otInP3ESSKGkxRthbVFu-1">
+          <mxGeometry x="-120" y="3990" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nk_luDwOTYzCnL8JQANy-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="otInP3ESSKGkxRthbVFu-1" source="nk_luDwOTYzCnL8JQANy-1" target="nk_luDwOTYzCnL8JQANy-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nk_luDwOTYzCnL8JQANy-1" value="GMap 업로드 경로&lt;br&gt;Walk 테이블 업데이트" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="otInP3ESSKGkxRthbVFu-1">
+          <mxGeometry x="-120" y="4069" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nk_luDwOTYzCnL8JQANy-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="otInP3ESSKGkxRthbVFu-1" source="nk_luDwOTYzCnL8JQANy-2" target="nk_luDwOTYzCnL8JQANy-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nk_luDwOTYzCnL8JQANy-2" value="Weekly GPX 파일&lt;br&gt;업데이트" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="otInP3ESSKGkxRthbVFu-1">
+          <mxGeometry x="-120" y="4150" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nk_luDwOTYzCnL8JQANy-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="otInP3ESSKGkxRthbVFu-1" source="nk_luDwOTYzCnL8JQANy-3" target="nk_luDwOTYzCnL8JQANy-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nk_luDwOTYzCnL8JQANy-3" value="Weekly GMap 이미지&lt;br&gt;생성 및 업로드" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="otInP3ESSKGkxRthbVFu-1">
+          <mxGeometry x="-120" y="4230" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nk_luDwOTYzCnL8JQANy-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="otInP3ESSKGkxRthbVFu-1" source="nk_luDwOTYzCnL8JQANy-4" target="vLbTTkp8FHjkzo2bY2Bp-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nk_luDwOTYzCnL8JQANy-4" value="Weekly Walk 테이블&lt;br&gt;업데이트&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="otInP3ESSKGkxRthbVFu-1">
+          <mxGeometry x="-120" y="4310" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
