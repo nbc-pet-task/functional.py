@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-14T10:39:02.976Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="3RlhRphY282gAHRcwQdp" version="14.4.7" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2021-03-14T10:39:19.191Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="22eM8EKoslJszXcofpwM" version="14.4.7" type="github" pages="10">
   <diagram id="kI84c9Ne_buLZaDN4V-V" name="AWS architecture">
     <mxGraphModel dx="2249" dy="1931" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -3379,7 +3379,7 @@
           <mxGeometry x="-1184.5" y="1336" width="263" height="134" as="geometry" />
         </mxCell>
         <mxCell id="gV1bKWuACITVr2tf7QUd-1" value="&lt;h1 style=&quot;font-size: 14px&quot;&gt;Write/Update Trigger&lt;/h1&gt;&lt;h1 style=&quot;font-size: 14px&quot;&gt;&lt;span style=&quot;font-weight: normal&quot;&gt;- 디바이스로 부터 mqtt 메시지 수신 했을 때&lt;/span&gt;&lt;br&gt;&lt;/h1&gt;&lt;p style=&quot;font-size: 14px&quot;&gt;- 사용자가 수동 입력했을 대 (홈 화면)&amp;nbsp;&lt;/p&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="lRxQcqwQzCrdxf21fRnw-1" vertex="1">
-          <mxGeometry x="1800" y="1110" width="190" height="120" as="geometry" />
+          <mxGeometry x="1670" y="1162" width="190" height="120" as="geometry" />
         </mxCell>
         <mxCell id="gV1bKWuACITVr2tf7QUd-2" value="&lt;h1 style=&quot;font-size: 14px&quot;&gt;Write/Update Trigger&lt;/h1&gt;&lt;h1 style=&quot;font-size: 14px&quot;&gt;&lt;span style=&quot;font-weight: normal&quot;&gt;- act 데이터와 gpx 데이터를 머징할때&lt;/span&gt;&lt;br&gt;&lt;/h1&gt;&lt;p style=&quot;font-size: 14px&quot;&gt;- 사용자가 수동 입력했을 대 (홈 화면)&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;font-size: 14px&quot;&gt;- 산책 시작/종료 이벤트 있을 때&lt;/p&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="lRxQcqwQzCrdxf21fRnw-1" vertex="1">
           <mxGeometry x="-530" y="1416" width="190" height="192" as="geometry" />
