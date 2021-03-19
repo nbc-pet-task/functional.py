@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-03-19T06:22:45.088Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="SS-qQo_QT2UiZo-EiSNl" version="14.4.9" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2021-03-19T06:36:29.498Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="yuYhTEAT29pb_y_rll6A" version="14.4.9" type="github" pages="10">
   <diagram id="kI84c9Ne_buLZaDN4V-V" name="AWS architecture">
-    <mxGraphModel dx="2249" dy="1971" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2249" dy="1931" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="cHVJoLJTV80GJNCRkLCo-0" />
         <mxCell id="cHVJoLJTV80GJNCRkLCo-1" parent="cHVJoLJTV80GJNCRkLCo-0" />
@@ -1652,7 +1652,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="9rwZBwarkveoyutjNHNz" name="Pet Schema">
-    <mxGraphModel dx="3076" dy="1971" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3076" dy="1931" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="lRxQcqwQzCrdxf21fRnw-0" />
         <mxCell id="lRxQcqwQzCrdxf21fRnw-1" parent="lRxQcqwQzCrdxf21fRnw-0" />
@@ -3591,7 +3591,7 @@
         <mxCell id="1wqhzEgKSszxd-mq_OBG-12" value="+ NORMAL" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="1wqhzEgKSszxd-mq_OBG-2" vertex="1">
           <mxGeometry y="78" width="140" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="f9GOPih-l9YOD2oKoXXA-26" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;MonitoringSummary&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;span&gt;+&amp;nbsp;&lt;/span&gt;&lt;span&gt;petId: ID!&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;span&gt;&amp;nbsp;+ date: AWSDate!&lt;/span&gt;&lt;br&gt;&lt;span&gt;&amp;nbsp;+ activeHigh: int&lt;/span&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;span&gt;+ activeMedium: int&lt;br&gt;&lt;/span&gt;&lt;span&gt;&amp;nbsp;+ activeLow: int&lt;br&gt;&lt;/span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;span&gt;+ feedIntake: int&lt;br&gt;&lt;/span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;span&gt;+ waterIntake: int&lt;br&gt;&lt;/span&gt;&lt;span&gt;&amp;nbsp;+ walkDuration: int&lt;/span&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;hr size=&quot;1&quot;&gt;&lt;br&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="lRxQcqwQzCrdxf21fRnw-1" vertex="1">
+        <mxCell id="f9GOPih-l9YOD2oKoXXA-26" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;MonitoringSummary&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;/p&gt;&lt;span&gt;+ activeHigh: int&lt;/span&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;span&gt;+ activeMedium: int&lt;br&gt;&lt;/span&gt;&lt;span&gt;&amp;nbsp;+ activeLow: int&lt;br&gt;&lt;/span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;span&gt;+ feedIntake: int&lt;br&gt;&lt;/span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;span&gt;+ waterIntake: int&lt;br&gt;&lt;/span&gt;&lt;span&gt;&amp;nbsp;+ walkDuration: int&lt;/span&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;hr size=&quot;1&quot;&gt;&lt;br&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="lRxQcqwQzCrdxf21fRnw-1" vertex="1">
           <mxGeometry x="-250" y="1128" width="190" height="182" as="geometry" />
         </mxCell>
         <mxCell id="f9GOPih-l9YOD2oKoXXA-28" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="lRxQcqwQzCrdxf21fRnw-1" source="AgIgylYJdQqGcv1YdMd6-72" target="IlM3sJYbjhkZa7vGMOiU-16" edge="1">
@@ -3751,7 +3751,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="hQe7JfWMLxix2Pn1ak4A" name="Walk">
-    <mxGraphModel dx="2622" dy="802" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
+    <mxGraphModel dx="2791" dy="877" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
         <mxCell id="otInP3ESSKGkxRthbVFu-0" />
         <mxCell id="otInP3ESSKGkxRthbVFu-1" parent="otInP3ESSKGkxRthbVFu-0" />
@@ -4704,7 +4704,7 @@
             <mxPoint x="-60" y="4330" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="nk_luDwOTYzCnL8JQANy-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="otInP3ESSKGkxRthbVFu-1" source="vLbTTkp8FHjkzo2bY2Bp-54" target="nk_luDwOTYzCnL8JQANy-0" edge="1">
+        <mxCell id="nk_luDwOTYzCnL8JQANy-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="otInP3ESSKGkxRthbVFu-1" source="vLbTTkp8FHjkzo2bY2Bp-54" target="nk_luDwOTYzCnL8JQANy-0">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="vLbTTkp8FHjkzo2bY2Bp-54" value="S3에 merged GPX &lt;br&gt;업로드" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="otInP3ESSKGkxRthbVFu-1" vertex="1">
@@ -4872,37 +4872,37 @@
             <mxPoint x="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="nk_luDwOTYzCnL8JQANy-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="otInP3ESSKGkxRthbVFu-1" source="nk_luDwOTYzCnL8JQANy-0" target="nk_luDwOTYzCnL8JQANy-1" edge="1">
+        <mxCell id="nk_luDwOTYzCnL8JQANy-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="otInP3ESSKGkxRthbVFu-1" source="nk_luDwOTYzCnL8JQANy-0" target="nk_luDwOTYzCnL8JQANy-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="nk_luDwOTYzCnL8JQANy-0" value="GMap 이미지 생성&lt;br&gt;및 업로드" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="otInP3ESSKGkxRthbVFu-1" vertex="1">
+        <mxCell id="nk_luDwOTYzCnL8JQANy-0" value="GMap 이미지 생성&lt;br&gt;및 업로드" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="otInP3ESSKGkxRthbVFu-1">
           <mxGeometry x="-120" y="3990" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="nk_luDwOTYzCnL8JQANy-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="otInP3ESSKGkxRthbVFu-1" source="nk_luDwOTYzCnL8JQANy-1" target="nk_luDwOTYzCnL8JQANy-2" edge="1">
+        <mxCell id="nk_luDwOTYzCnL8JQANy-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="otInP3ESSKGkxRthbVFu-1" source="nk_luDwOTYzCnL8JQANy-1" target="nk_luDwOTYzCnL8JQANy-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="nk_luDwOTYzCnL8JQANy-1" value="GMap 업로드 경로&lt;br&gt;Walk 테이블 업데이트" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="otInP3ESSKGkxRthbVFu-1" vertex="1">
+        <mxCell id="nk_luDwOTYzCnL8JQANy-1" value="GMap 업로드 경로&lt;br&gt;Walk 테이블 업데이트" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="otInP3ESSKGkxRthbVFu-1">
           <mxGeometry x="-120" y="4069" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="nk_luDwOTYzCnL8JQANy-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="otInP3ESSKGkxRthbVFu-1" source="nk_luDwOTYzCnL8JQANy-2" target="nk_luDwOTYzCnL8JQANy-3" edge="1">
+        <mxCell id="nk_luDwOTYzCnL8JQANy-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="otInP3ESSKGkxRthbVFu-1" source="nk_luDwOTYzCnL8JQANy-2" target="nk_luDwOTYzCnL8JQANy-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="nk_luDwOTYzCnL8JQANy-2" value="Weekly GPX 파일&lt;br&gt;생성 및 업로드" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="otInP3ESSKGkxRthbVFu-1" vertex="1">
+        <mxCell id="nk_luDwOTYzCnL8JQANy-2" value="Weekly GPX 파일&lt;br&gt;생성 및 업로드" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="otInP3ESSKGkxRthbVFu-1">
           <mxGeometry x="-120" y="4150" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="nk_luDwOTYzCnL8JQANy-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="otInP3ESSKGkxRthbVFu-1" source="nk_luDwOTYzCnL8JQANy-3" target="nk_luDwOTYzCnL8JQANy-4" edge="1">
+        <mxCell id="nk_luDwOTYzCnL8JQANy-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="otInP3ESSKGkxRthbVFu-1" source="nk_luDwOTYzCnL8JQANy-3" target="nk_luDwOTYzCnL8JQANy-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="nk_luDwOTYzCnL8JQANy-3" value="Weekly GMap 이미지&lt;br&gt;생성 및 업로드" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="otInP3ESSKGkxRthbVFu-1" vertex="1">
+        <mxCell id="nk_luDwOTYzCnL8JQANy-3" value="Weekly GMap 이미지&lt;br&gt;생성 및 업로드" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="otInP3ESSKGkxRthbVFu-1">
           <mxGeometry x="-120" y="4230" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="nk_luDwOTYzCnL8JQANy-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="otInP3ESSKGkxRthbVFu-1" source="nk_luDwOTYzCnL8JQANy-4" target="vLbTTkp8FHjkzo2bY2Bp-43" edge="1">
+        <mxCell id="nk_luDwOTYzCnL8JQANy-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="otInP3ESSKGkxRthbVFu-1" source="nk_luDwOTYzCnL8JQANy-4" target="vLbTTkp8FHjkzo2bY2Bp-43">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="nk_luDwOTYzCnL8JQANy-4" value="Weekly Walk 테이블&lt;br&gt;업데이트&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="otInP3ESSKGkxRthbVFu-1" vertex="1">
+        <mxCell id="nk_luDwOTYzCnL8JQANy-4" value="Weekly Walk 테이블&lt;br&gt;업데이트&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="otInP3ESSKGkxRthbVFu-1">
           <mxGeometry x="-120" y="4310" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="nk_luDwOTYzCnL8JQANy-11" value="&lt;div&gt;protected/walk/{userId}/{petId}/{walkId}/{weeksOfYear}/{timestamp}.gpx&lt;/div&gt;&lt;div&gt;protected/walk/{userId}/{petId}/{walkId}/{weeksOfYear}/{timestamp}.jpg&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" parent="otInP3ESSKGkxRthbVFu-1" vertex="1">
+        <mxCell id="nk_luDwOTYzCnL8JQANy-11" value="&lt;div&gt;protected/walk/{userId}/{petId}/{walkId}/{weeksOfYear}/{timestamp}.gpx&lt;/div&gt;&lt;div&gt;protected/walk/{userId}/{petId}/{walkId}/{weeksOfYear}/{timestamp}.jpg&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="otInP3ESSKGkxRthbVFu-1">
           <mxGeometry x="109.5" y="4190" width="420" height="43" as="geometry" />
         </mxCell>
       </root>
