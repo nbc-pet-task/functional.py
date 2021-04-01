@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-01T08:37:29.361Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="T4fHnh764p5XNNRwf3BA" version="14.4.9" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2021-04-01T08:51:05.529Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="WxzLZLCphcUnNvH8pb8T" version="14.4.9" type="github" pages="10">
   <diagram id="kI84c9Ne_buLZaDN4V-V" name="AWS architecture">
     <mxGraphModel dx="2249" dy="1931" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -4474,19 +4474,22 @@
           <mxGeometry x="430" y="2200" width="180" height="100" as="geometry" />
         </mxCell>
         <mxCell id="IvwzAbnaV3mELHBLmpfm-0" value="SettingFeed" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=#dae8fc;fontFamily=Verdana;fontSize=12;strokeColor=#6c8ebf;" vertex="1" parent="lRxQcqwQzCrdxf21fRnw-1">
-          <mxGeometry x="-1470" y="860" width="230" height="130" as="geometry" />
+          <mxGeometry x="-1470" y="860" width="230" height="156" as="geometry" />
         </mxCell>
-        <mxCell id="IvwzAbnaV3mELHBLmpfm-1" value="+ useRecmd: Bool (자동급여량 설정)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="IvwzAbnaV3mELHBLmpfm-0">
+        <mxCell id="IvwzAbnaV3mELHBLmpfm-7" value="+ petId: ID!" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="IvwzAbnaV3mELHBLmpfm-0">
           <mxGeometry y="26" width="230" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="IvwzAbnaV3mELHBLmpfm-5" value="+ recmdFeedIntake: Int (권장섭취량 g)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="IvwzAbnaV3mELHBLmpfm-0">
+        <mxCell id="IvwzAbnaV3mELHBLmpfm-1" value="+ useRecmd: Bool (자동급여량 설정)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="IvwzAbnaV3mELHBLmpfm-0">
           <mxGeometry y="52" width="230" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="IvwzAbnaV3mELHBLmpfm-2" value="+ feedingPerDay: Int (1일 급여 횟수)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="IvwzAbnaV3mELHBLmpfm-0">
+        <mxCell id="IvwzAbnaV3mELHBLmpfm-5" value="+ recmdFeedIntake: Int (권장섭취량 g)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="IvwzAbnaV3mELHBLmpfm-0">
           <mxGeometry y="78" width="230" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="IvwzAbnaV3mELHBLmpfm-3" value="+ gramsPerFeeding: Int (1회 급여량 g)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="IvwzAbnaV3mELHBLmpfm-0">
+        <mxCell id="IvwzAbnaV3mELHBLmpfm-2" value="+ feedingPerDay: Int (1일 급여 횟수)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="IvwzAbnaV3mELHBLmpfm-0">
           <mxGeometry y="104" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="IvwzAbnaV3mELHBLmpfm-3" value="+ gramsPerFeeding: Int (1회 급여량 g)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="IvwzAbnaV3mELHBLmpfm-0">
+          <mxGeometry y="130" width="230" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
