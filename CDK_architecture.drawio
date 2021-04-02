@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-02T01:14:12.942Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="mESxevb9UizemYJ_-yW3" version="14.5.4" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2021-04-02T01:28:19.945Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="OrYI0yx2hca-B7pPIp2h" version="14.5.4" type="github" pages="10">
   <diagram id="kI84c9Ne_buLZaDN4V-V" name="AWS architecture">
     <mxGraphModel dx="2249" dy="1931" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -4302,10 +4302,10 @@
         <mxCell id="YQH-QwpZajeVyXZZQ2gD-3" value="+ activeMedium: [Int] (요일별 중간 활동량)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="8RPhcoP2fGqMe03ddfKB-0" vertex="1">
           <mxGeometry y="104" width="190" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="bV-7xstJB2EW5WExgqP8-1" value="+ avgActivity: Int (평균 활동 시간)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="8RPhcoP2fGqMe03ddfKB-0" vertex="1">
+        <mxCell id="bV-7xstJB2EW5WExgqP8-1" value="+ avgActivity: Float(평균 활동 시간)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="8RPhcoP2fGqMe03ddfKB-0" vertex="1">
           <mxGeometry y="130" width="190" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="8RPhcoP2fGqMe03ddfKB-4" value="+ avgPoint: Int" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="8RPhcoP2fGqMe03ddfKB-0" vertex="1">
+        <mxCell id="8RPhcoP2fGqMe03ddfKB-4" value="+ avgPoint: Float" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="8RPhcoP2fGqMe03ddfKB-0" vertex="1">
           <mxGeometry y="156" width="190" height="26" as="geometry" />
         </mxCell>
         <mxCell id="bV-7xstJB2EW5WExgqP8-3" value="+ recommend: Int" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="8RPhcoP2fGqMe03ddfKB-0" vertex="1">
@@ -4332,7 +4332,7 @@
         <mxCell id="8RPhcoP2fGqMe03ddfKB-11" value="+ rest: [Int] (요일별 휴식량)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="8RPhcoP2fGqMe03ddfKB-8" vertex="1">
           <mxGeometry y="78" width="190" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="bV-7xstJB2EW5WExgqP8-2" value="+ avgRest: Int (평균 휴식 시간)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="8RPhcoP2fGqMe03ddfKB-8" vertex="1">
+        <mxCell id="bV-7xstJB2EW5WExgqP8-2" value="+ avgRest: Float(평균 휴식 시간)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="8RPhcoP2fGqMe03ddfKB-8" vertex="1">
           <mxGeometry y="104" width="190" height="26" as="geometry" />
         </mxCell>
         <mxCell id="8RPhcoP2fGqMe03ddfKB-12" value="+ recommend: Int (권장 휴식량)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="8RPhcoP2fGqMe03ddfKB-8" vertex="1">
@@ -4419,7 +4419,7 @@
         <mxCell id="bV-7xstJB2EW5WExgqP8-7" value="+ rest: [Int] (주차별 휴식량)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="bV-7xstJB2EW5WExgqP8-4" vertex="1">
           <mxGeometry y="78" width="190" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="bV-7xstJB2EW5WExgqP8-8" value="+ avgRest: Int (평균 휴식 시간)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="bV-7xstJB2EW5WExgqP8-4" vertex="1">
+        <mxCell id="bV-7xstJB2EW5WExgqP8-8" value="+ avgRest: Float (평균 휴식 시간)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="bV-7xstJB2EW5WExgqP8-4" vertex="1">
           <mxGeometry y="104" width="190" height="26" as="geometry" />
         </mxCell>
         <mxCell id="bV-7xstJB2EW5WExgqP8-9" value="+ recommend: Int (권장 휴식량)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="bV-7xstJB2EW5WExgqP8-4" vertex="1">
@@ -4452,10 +4452,10 @@
         <mxCell id="bV-7xstJB2EW5WExgqP8-18" value="+ activeMedium: [Int] (주차별 중간 활동량)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="bV-7xstJB2EW5WExgqP8-14" vertex="1">
           <mxGeometry y="104" width="190" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="bV-7xstJB2EW5WExgqP8-19" value="+ avgActivity: Int (평균 활동 시간)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="bV-7xstJB2EW5WExgqP8-14" vertex="1">
+        <mxCell id="bV-7xstJB2EW5WExgqP8-19" value="+ avgActivity: Float (평균 활동 시간)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="bV-7xstJB2EW5WExgqP8-14" vertex="1">
           <mxGeometry y="130" width="190" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="bV-7xstJB2EW5WExgqP8-20" value="+ avgPoint: Int" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="bV-7xstJB2EW5WExgqP8-14" vertex="1">
+        <mxCell id="bV-7xstJB2EW5WExgqP8-20" value="+ avgPoint: Float" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="bV-7xstJB2EW5WExgqP8-14" vertex="1">
           <mxGeometry y="156" width="190" height="26" as="geometry" />
         </mxCell>
         <mxCell id="bV-7xstJB2EW5WExgqP8-21" value="+ recommend: Int" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="bV-7xstJB2EW5WExgqP8-14" vertex="1">
