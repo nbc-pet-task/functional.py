@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-04-06T13:14:12.677Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="4ZRdSGq6dR9dl_udHrMv" version="14.5.3" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2021-04-07T07:49:21.527Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="2PoSh1D2D_zNKPRvSdgg" version="14.5.3" type="github" pages="10">
   <diagram id="kI84c9Ne_buLZaDN4V-V" name="AWS architecture">
-    <mxGraphModel dx="4169" dy="3011" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2249" dy="1971" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="cHVJoLJTV80GJNCRkLCo-0" />
         <mxCell id="cHVJoLJTV80GJNCRkLCo-1" parent="cHVJoLJTV80GJNCRkLCo-0" />
@@ -2182,7 +2182,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="9rwZBwarkveoyutjNHNz" name="Pet Schema">
-    <mxGraphModel dx="4996" dy="3011" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3076" dy="1971" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="lRxQcqwQzCrdxf21fRnw-0" />
         <mxCell id="lRxQcqwQzCrdxf21fRnw-1" parent="lRxQcqwQzCrdxf21fRnw-0" />
@@ -3045,7 +3045,7 @@
         <mxCell id="_psfi7jJuqILa5X3Z8Sx-20" value="" style="line;html=1;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;sketch=0;dashed=1;" parent="_psfi7jJuqILa5X3Z8Sx-14" vertex="1">
           <mxGeometry y="208" width="190" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="_psfi7jJuqILa5X3Z8Sx-23" value="FeederDaily" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=#dae8fc;fontFamily=Verdana;fontSize=12;strokeColor=#6c8ebf;" parent="lRxQcqwQzCrdxf21fRnw-1" vertex="1">
+        <mxCell id="_psfi7jJuqILa5X3Z8Sx-23" value="FeedDaily" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=#dae8fc;fontFamily=Verdana;fontSize=12;strokeColor=#6c8ebf;" parent="lRxQcqwQzCrdxf21fRnw-1" vertex="1">
           <mxGeometry x="840" y="760" width="190" height="360" as="geometry" />
         </mxCell>
         <mxCell id="_psfi7jJuqILa5X3Z8Sx-24" value="+ petId: ID!" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="_psfi7jJuqILa5X3Z8Sx-23" vertex="1">
@@ -3200,7 +3200,7 @@
         <mxCell id="AgIgylYJdQqGcv1YdMd6-32" value="+ petId: ID!&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="AgIgylYJdQqGcv1YdMd6-30" vertex="1">
           <mxGeometry y="52" width="190" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="IvwzAbnaV3mELHBLmpfm-6" value="+ alias: String" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="AgIgylYJdQqGcv1YdMd6-30">
+        <mxCell id="IvwzAbnaV3mELHBLmpfm-6" value="+ alias: String" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="AgIgylYJdQqGcv1YdMd6-30" vertex="1">
           <mxGeometry y="78" width="190" height="26" as="geometry" />
         </mxCell>
         <mxCell id="ULtE4U2zd2dSkcEdn8Fz-3" value="+ thingName: String!" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="AgIgylYJdQqGcv1YdMd6-30" vertex="1">
@@ -3715,7 +3715,7 @@
         <mxCell id="CfF9raJyEQdGDKarxkLG-56" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;WaterWeekTable&lt;/div&gt;&lt;table style=&quot;width: 100% ; font-size: 1em&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;ParitionKey&lt;/td&gt;&lt;td&gt;petId : String!&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;SortKey1&lt;/td&gt;&lt;td&gt;week : String!&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;" parent="lRxQcqwQzCrdxf21fRnw-1" vertex="1">
           <mxGeometry x="1040" y="1749" width="180" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="FsV8JOrLC7QkCCEP_iG2-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="lRxQcqwQzCrdxf21fRnw-1">
+        <mxCell id="FsV8JOrLC7QkCCEP_iG2-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="lRxQcqwQzCrdxf21fRnw-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-1051" y="890" as="targetPoint" />
             <mxPoint x="-1051" y="830" as="sourcePoint" />
@@ -3737,10 +3737,10 @@
         <mxCell id="hcnUqRQQGJc-P8a1g53I-3" value="+ weight: Float (몸무게)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hcnUqRQQGJc-P8a1g53I-0" vertex="1">
           <mxGeometry y="78" width="220" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="JucJX48H6dzksUb-khtw-0" value="+ minWeight: Float (정상체중범위-최소)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="hcnUqRQQGJc-P8a1g53I-0">
+        <mxCell id="JucJX48H6dzksUb-khtw-0" value="+ minWeight: Float (정상체중범위-최소)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hcnUqRQQGJc-P8a1g53I-0" vertex="1">
           <mxGeometry y="104" width="220" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="JucJX48H6dzksUb-khtw-1" value="+ maxWeight: Float (정상체중범위-최대)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="hcnUqRQQGJc-P8a1g53I-0">
+        <mxCell id="JucJX48H6dzksUb-khtw-1" value="+ maxWeight: Float (정상체중범위-최대)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hcnUqRQQGJc-P8a1g53I-0" vertex="1">
           <mxGeometry y="130" width="220" height="26" as="geometry" />
         </mxCell>
         <mxCell id="fNC2ASx6tPcQN3pjJ_me-1" value="+ foods: [Food] (사료정보 복사)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hcnUqRQQGJc-P8a1g53I-0" vertex="1">
@@ -3764,13 +3764,13 @@
         <mxCell id="hcnUqRQQGJc-P8a1g53I-7" value="+ recmdWalkTime: Int (권장산책시간 s)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hcnUqRQQGJc-P8a1g53I-0" vertex="1">
           <mxGeometry y="312" width="220" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="FsV8JOrLC7QkCCEP_iG2-0" value="+ useRecmd: Bool (자동급여량 설정)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="hcnUqRQQGJc-P8a1g53I-0">
+        <mxCell id="FsV8JOrLC7QkCCEP_iG2-0" value="+ useRecmd: Bool (자동급여량 설정)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hcnUqRQQGJc-P8a1g53I-0" vertex="1">
           <mxGeometry y="338" width="220" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="FsV8JOrLC7QkCCEP_iG2-1" value="+ feedingsPerDay: Int (1일 급여 횟수)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="hcnUqRQQGJc-P8a1g53I-0">
+        <mxCell id="FsV8JOrLC7QkCCEP_iG2-1" value="+ feedingsPerDay: Int (1일 급여 횟수)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hcnUqRQQGJc-P8a1g53I-0" vertex="1">
           <mxGeometry y="364" width="220" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="FsV8JOrLC7QkCCEP_iG2-2" value="+ gramsPerFeeding: Int (1회 급여량 g)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="hcnUqRQQGJc-P8a1g53I-0">
+        <mxCell id="FsV8JOrLC7QkCCEP_iG2-2" value="+ gramsPerFeeding: Int (1회 급여량 g)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="hcnUqRQQGJc-P8a1g53I-0" vertex="1">
           <mxGeometry y="390" width="220" height="26" as="geometry" />
         </mxCell>
         <mxCell id="hcnUqRQQGJc-P8a1g53I-8" value="&lt;strike&gt;+ targetFeedIntake: Int (목표-섭취량)&lt;/strike&gt;" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#333333;" parent="hcnUqRQQGJc-P8a1g53I-0" vertex="1">
@@ -4481,22 +4481,22 @@
         <mxCell id="bV-7xstJB2EW5WExgqP8-25" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;ActivityDailyTable&lt;/div&gt;&lt;table style=&quot;width: 100% ; font-size: 1em&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;ParitionKey&lt;/td&gt;&lt;td&gt;petId : String!&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;SortKey1&lt;/td&gt;&lt;td&gt;date : String!&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;" parent="lRxQcqwQzCrdxf21fRnw-1" vertex="1">
           <mxGeometry x="430" y="2200" width="180" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="IvwzAbnaV3mELHBLmpfm-0" value="SettingFeed" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=#dae8fc;fontFamily=Verdana;fontSize=12;strokeColor=#6c8ebf;" vertex="1" parent="lRxQcqwQzCrdxf21fRnw-1">
+        <mxCell id="IvwzAbnaV3mELHBLmpfm-0" value="SettingFeed" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=#dae8fc;fontFamily=Verdana;fontSize=12;strokeColor=#6c8ebf;" parent="lRxQcqwQzCrdxf21fRnw-1" vertex="1">
           <mxGeometry x="-1470" y="860" width="230" height="156" as="geometry" />
         </mxCell>
-        <mxCell id="IvwzAbnaV3mELHBLmpfm-7" value="+ petId: ID!" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="IvwzAbnaV3mELHBLmpfm-0">
+        <mxCell id="IvwzAbnaV3mELHBLmpfm-7" value="+ petId: ID!" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="IvwzAbnaV3mELHBLmpfm-0" vertex="1">
           <mxGeometry y="26" width="230" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="IvwzAbnaV3mELHBLmpfm-1" value="+ useRecmd: Bool (자동급여량 설정)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="IvwzAbnaV3mELHBLmpfm-0">
+        <mxCell id="IvwzAbnaV3mELHBLmpfm-1" value="+ useRecmd: Bool (자동급여량 설정)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="IvwzAbnaV3mELHBLmpfm-0" vertex="1">
           <mxGeometry y="52" width="230" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="IvwzAbnaV3mELHBLmpfm-5" value="+ recmdFeedIntake: Int (권장섭취량 g)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="IvwzAbnaV3mELHBLmpfm-0">
+        <mxCell id="IvwzAbnaV3mELHBLmpfm-5" value="+ recmdFeedIntake: Int (권장섭취량 g)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="IvwzAbnaV3mELHBLmpfm-0" vertex="1">
           <mxGeometry y="78" width="230" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="IvwzAbnaV3mELHBLmpfm-2" value="+ feedingsPerDay: Int (1일 급여 횟수)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="IvwzAbnaV3mELHBLmpfm-0">
+        <mxCell id="IvwzAbnaV3mELHBLmpfm-2" value="+ feedingsPerDay: Int (1일 급여 횟수)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="IvwzAbnaV3mELHBLmpfm-0" vertex="1">
           <mxGeometry y="104" width="230" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="IvwzAbnaV3mELHBLmpfm-3" value="+ gramsPerFeeding: Int (1회 급여량 g)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="IvwzAbnaV3mELHBLmpfm-0">
+        <mxCell id="IvwzAbnaV3mELHBLmpfm-3" value="+ gramsPerFeeding: Int (1회 급여량 g)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="IvwzAbnaV3mELHBLmpfm-0" vertex="1">
           <mxGeometry y="130" width="230" height="26" as="geometry" />
         </mxCell>
       </root>
