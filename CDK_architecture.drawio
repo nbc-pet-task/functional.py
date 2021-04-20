@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-20T06:37:19.193Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36" etag="lEhibZmRFo5YCQybrYaA" version="14.6.0" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2021-04-20T06:37:54.868Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36" etag="hqMt8C_NDoWgsyLyvs0e" version="14.6.0" type="github" pages="10">
   <diagram id="kI84c9Ne_buLZaDN4V-V" name="AWS architecture">
     <mxGraphModel dx="2249" dy="1963" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1992,6 +1992,15 @@
         </mxCell>
         <mxCell id="CjlTtZ5faDFf8KJicLv5-2" value="WiFi 실패 사유" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="j5lbtWY_CVDqfyDg-Ocu-1">
           <mxGeometry x="465" y="230" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CjlTtZ5faDFf8KJicLv5-3" value="WiFi On&lt;br&gt;(BLE 연결중)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="j5lbtWY_CVDqfyDg-Ocu-1">
+          <mxGeometry x="2020" y="1020" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CjlTtZ5faDFf8KJicLv5-4" value="BLE로 실패사유 전송" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="j5lbtWY_CVDqfyDg-Ocu-1">
+          <mxGeometry x="2200" y="1100" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CjlTtZ5faDFf8KJicLv5-5" value="WiFi 실패 사유" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="j5lbtWY_CVDqfyDg-Ocu-1">
+          <mxGeometry x="1845" y="250" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
