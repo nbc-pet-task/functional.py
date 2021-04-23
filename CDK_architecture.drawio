@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-23T02:01:13.182Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36" etag="oM2xYH-rtnQfd1j5Dkkv" version="14.6.3" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2021-04-23T02:02:25.599Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36" etag="lbHz3J0Xcta9v_cdOBoL" version="14.6.3" type="github" pages="10">
   <diagram id="kI84c9Ne_buLZaDN4V-V" name="AWS architecture">
     <mxGraphModel dx="2035" dy="2085" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2376,7 +2376,7 @@
         <mxCell id="AgIgylYJdQqGcv1YdMd6-76" value="+ content: NotiContentType!" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="AgIgylYJdQqGcv1YdMd6-72" vertex="1">
           <mxGeometry y="156" width="250" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="brT4Ds4DuXAtJfovo7IG-5" value="+ data: JsonString" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="AgIgylYJdQqGcv1YdMd6-72" vertex="1">
+        <mxCell id="brT4Ds4DuXAtJfovo7IG-5" value="+ data: NotiData" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="AgIgylYJdQqGcv1YdMd6-72" vertex="1">
           <mxGeometry y="182" width="250" height="26" as="geometry" />
         </mxCell>
         <mxCell id="AgIgylYJdQqGcv1YdMd6-77" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="AgIgylYJdQqGcv1YdMd6-72" vertex="1">
@@ -4580,7 +4580,7 @@
         <mxCell id="PndbTX6pcCvTUS2UVsb3-7" value="+&amp;nbsp;&lt;span&gt;getSettingUser()&amp;nbsp;&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="PndbTX6pcCvTUS2UVsb3-0" vertex="1">
           <mxGeometry y="86" width="250" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="PndbTX6pcCvTUS2UVsb3-8" value="NotificationData" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#dae8fc;strokeColor=#6c8ebf;fontFamily=Verdana;" vertex="1" parent="lRxQcqwQzCrdxf21fRnw-1">
+        <mxCell id="PndbTX6pcCvTUS2UVsb3-8" value="NotiData" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#dae8fc;strokeColor=#6c8ebf;fontFamily=Verdana;" vertex="1" parent="lRxQcqwQzCrdxf21fRnw-1">
           <mxGeometry x="2550" y="1282" width="220" height="60" as="geometry" />
         </mxCell>
         <mxCell id="PndbTX6pcCvTUS2UVsb3-9" value="+ deviceName: String" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="PndbTX6pcCvTUS2UVsb3-8">
