@@ -1,1 +1,106 @@
-<mxfile host="app.diagrams.net" modified="2021-05-13T01:42:42.456Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" version="14.6.11" etag="Q21JJWKmpzvlNyVU02W6" type="github"><diagram id="MsSW5VlJG6Mp-VC027nr">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-05-13T01:43:13.472Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="3e69yjls185FQY9JV03l" version="14.6.11" type="github">
+  <diagram id="MsSW5VlJG6Mp-VC027nr" name="Page-1">
+    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="W27umWDaxRWHhUKUUZm--1" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="84" y="95.5" width="120" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="W27umWDaxRWHhUKUUZm--2" value="" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.devices.tv;" vertex="1" parent="W27umWDaxRWHhUKUUZm--1">
+          <mxGeometry y="20" width="120" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="W27umWDaxRWHhUKUUZm--3" value="Smart TV" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="W27umWDaxRWHhUKUUZm--1">
+          <mxGeometry x="25" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="W27umWDaxRWHhUKUUZm--4" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="50" y="280" width="128" height="148" as="geometry" />
+        </mxCell>
+        <mxCell id="W27umWDaxRWHhUKUUZm--5" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/fur-baby/256/Air_Purifier-128.png" vertex="1" parent="W27umWDaxRWHhUKUUZm--4">
+          <mxGeometry y="20" width="128" height="128" as="geometry" />
+        </mxCell>
+        <mxCell id="W27umWDaxRWHhUKUUZm--6" value="Air purifier" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="W27umWDaxRWHhUKUUZm--4">
+          <mxGeometry x="39" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="W27umWDaxRWHhUKUUZm--7" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="254" y="97" width="70" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="W27umWDaxRWHhUKUUZm--8" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/social-life/512/raspberry-pi-128.png" vertex="1" parent="W27umWDaxRWHhUKUUZm--7">
+          <mxGeometry x="11" y="24" width="48" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="W27umWDaxRWHhUKUUZm--9" value="Processing Board" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="W27umWDaxRWHhUKUUZm--7">
+          <mxGeometry y="-7" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="W27umWDaxRWHhUKUUZm--10" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="675" y="147.5" width="128" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="W27umWDaxRWHhUKUUZm--11" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/glypho-free/64/laptop-128.png" vertex="1" parent="W27umWDaxRWHhUKUUZm--10">
+          <mxGeometry y="7" width="128" height="128" as="geometry" />
+        </mxCell>
+        <mxCell id="W27umWDaxRWHhUKUUZm--12" value="Roblox-Server" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="W27umWDaxRWHhUKUUZm--10">
+          <mxGeometry x="14" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="W27umWDaxRWHhUKUUZm--13" value="" style="endArrow=classic;html=1;entryX=1.083;entryY=0.4;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="W27umWDaxRWHhUKUUZm--8" target="W27umWDaxRWHhUKUUZm--2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="274" y="355.5" as="sourcePoint" />
+            <mxPoint x="324" y="305.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W27umWDaxRWHhUKUUZm--14" value="" style="image;html=1;image=img/lib/clip_art/computers/Server_Rack_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="249" y="324" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="W27umWDaxRWHhUKUUZm--15" value="ThinQ server" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="249" y="284" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="W27umWDaxRWHhUKUUZm--16" value="" style="image;html=1;image=img/lib/clip_art/networking/Wireless_Router_N_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="530" y="240" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="W27umWDaxRWHhUKUUZm--17" value="WiFi AP" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="510" y="220" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="W27umWDaxRWHhUKUUZm--18" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="W27umWDaxRWHhUKUUZm--5" target="W27umWDaxRWHhUKUUZm--14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="404.5" as="sourcePoint" />
+            <mxPoint x="230" y="364.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W27umWDaxRWHhUKUUZm--19" value="" style="outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#232F3E;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.mobile_client;" vertex="1" parent="1">
+          <mxGeometry x="709" y="314" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W27umWDaxRWHhUKUUZm--20" value="Mobile" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="689" y="289.5" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="W27umWDaxRWHhUKUUZm--21" value="" style="endArrow=classic;startArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="W27umWDaxRWHhUKUUZm--16" target="W27umWDaxRWHhUKUUZm--11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="610" y="250" as="sourcePoint" />
+            <mxPoint x="660" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W27umWDaxRWHhUKUUZm--22" value="" style="endArrow=classic;startArrow=classic;html=1;" edge="1" parent="1" target="W27umWDaxRWHhUKUUZm--19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="610" y="280" as="sourcePoint" />
+            <mxPoint x="685" y="228.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W27umWDaxRWHhUKUUZm--23" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="W27umWDaxRWHhUKUUZm--8" target="W27umWDaxRWHhUKUUZm--16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="310" as="sourcePoint" />
+            <mxPoint x="440" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W27umWDaxRWHhUKUUZm--24" value="" style="endArrow=classic;startArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="W27umWDaxRWHhUKUUZm--14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="323" y="155" as="sourcePoint" />
+            <mxPoint x="530" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W27umWDaxRWHhUKUUZm--25" value="Local Network" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="400" y="165" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="W27umWDaxRWHhUKUUZm--26" value="Public Network" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="400" y="329.5" width="100" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
