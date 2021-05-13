@@ -1,17 +1,17 @@
-<mxfile host="app.diagrams.net" modified="2021-05-13T02:42:12.138Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="y563ZdVZMI4yG7r8147x" version="14.6.11" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-13T03:00:21.946Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="mrIRSKp1RcftVjhxTQmr" version="14.6.11" type="github">
   <diagram id="MsSW5VlJG6Mp-VC027nr" name="Page-1">
     <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="W27umWDaxRWHhUKUUZm--1" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="40" y="95.5" width="120" height="95" as="geometry" />
-        </mxCell>
-        <mxCell id="W27umWDaxRWHhUKUUZm--2" value="" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.devices.tv;" vertex="1" parent="W27umWDaxRWHhUKUUZm--1">
-          <mxGeometry y="20" width="120" height="75" as="geometry" />
+          <mxGeometry x="40" y="95.5" width="130" height="96.88" as="geometry" />
         </mxCell>
         <mxCell id="W27umWDaxRWHhUKUUZm--3" value="Smart TV" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="W27umWDaxRWHhUKUUZm--1">
           <mxGeometry x="25" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="W27umWDaxRWHhUKUUZm--45" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;image=https://png2.cleanpng.com/sh/7a13f1f34b3227dada727f868a49a19b/L0KzQYm3UsA3N6R5j5H0aYP2gLBuTfxoNZ1qfJ9rYXPufLr7TfxkbF42SKo5cD3rebjvTfRmbppzgeZyb36whLbzhgZqe5p0RaY2Y3B1dX7qkQUue6Z1iNH7dD36cb3zTfxkbF55jp8AYUe8dYbrVfJkP2QASpCBOEezQoW3UcE2OWgAS6o6M0O6R4KCTwBvbz==/kisspng-lg-led-backlit-lcd-1080p-high-definition-televisio-4-core-cpu-support-wall-lcd-tv-5a79e5d5bc7392.6870240115179381337719.png;" vertex="1" parent="W27umWDaxRWHhUKUUZm--1">
+          <mxGeometry x="-10" y="14.5" width="140" height="82.38" as="geometry" />
         </mxCell>
         <mxCell id="W27umWDaxRWHhUKUUZm--4" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="50" y="360" width="128" height="148" as="geometry" />
