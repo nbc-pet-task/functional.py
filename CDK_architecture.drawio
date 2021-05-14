@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-14T14:14:34.542Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="R-3m5TmQRuJKMvNFfoPY" version="14.6.6" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2021-05-14T14:16:02.176Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="iLb96e-KH5UxyoSdu2WQ" version="14.6.6" type="github" pages="10">
   <diagram id="kI84c9Ne_buLZaDN4V-V" name="AWS architecture">
     <mxGraphModel dx="2249" dy="1931" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -4597,6 +4597,15 @@
             <mxPoint x="2170" y="1360" as="sourcePoint" />
             <mxPoint x="2330" y="1360" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="7aKo78ZIhVQ1B4ubZehv-0" value="Feed" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=#dae8fc;fontFamily=Verdana;fontSize=12;strokeColor=#6c8ebf;" vertex="1" parent="lRxQcqwQzCrdxf21fRnw-1">
+          <mxGeometry x="840" y="660" width="190" height="87" as="geometry" />
+        </mxCell>
+        <mxCell id="7aKo78ZIhVQ1B4ubZehv-1" value="+ calories: Int" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="7aKo78ZIhVQ1B4ubZehv-0">
+          <mxGeometry y="26" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="7aKo78ZIhVQ1B4ubZehv-2" value="+ name: String" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="7aKo78ZIhVQ1B4ubZehv-0">
+          <mxGeometry y="52" width="190" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
